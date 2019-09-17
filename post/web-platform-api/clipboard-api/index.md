@@ -45,7 +45,7 @@ Say you have a `p` element in an HTML page:
 You create a click event listener on it, and you first check if the Clipboard API is available:
 
 ```js
-document.querySelector('p').addEventListener('click', async e => {
+document.querySelector('p').addEventListener('click', async event => {
   if (!navigator.clipboard) {
     // Clipboard API not available
     return
@@ -56,7 +56,7 @@ document.querySelector('p').addEventListener('click', async e => {
 Now, we want to copy the content of that `p` tag to the Clipboard. We do so by looking up the `innerText` of the element, identified by `event.target`:
 
 ```js
-document.querySelector('p').addEventListener('click', async e => {
+document.querySelector('p').addEventListener('click', async event => {
   if (!navigator.clipboard) {
     // Clipboard API not available
     return
@@ -70,7 +70,7 @@ Next, we call the `navigator.clipboard.writeText()` method, wrapping it in a try
 This is the full code of the example:
 
 ```js
-document.querySelector('p').addEventListener('click', async e => {
+document.querySelector('p').addEventListener('click', async event => {
   if (!navigator.clipboard) {
     // Clipboard API not available
     return
@@ -78,7 +78,7 @@ document.querySelector('p').addEventListener('click', async e => {
   const text = event.target.innerText
   try {
     await navigator.clipboard.writeText(text)
-    e.target.textContent = 'Copied to clipboard'
+    event.target.textContent = 'Copied to clipboard'
   } catch (err) {
     console.error('Failed to copy!', err)
   }

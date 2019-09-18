@@ -20,7 +20,7 @@ but `asynchronousFunction()` performs some asynchronous call in it (for example 
 
 ```js
 const asynchronousFunction = () => {
-	fetch('./file.json').then(response => {
+  return fetch('./file.json').then(response => {
     return response
   })
 }
@@ -33,7 +33,7 @@ Async/await is the most straightforward solution. You use the `await` keyword in
 
 ```js
 const asynchronousFunction = async () => {
-	const response = await fetch('./file.json')
+  const response = await fetch('./file.json')
   return response
 }
 ```
@@ -59,7 +59,7 @@ Here's an example. `asynchronousFunction()` receives a new function as a paramet
 
 ```js
 const asynchronousFunction = callback => {
-	fetch('./file.json').then(response => {
+  return fetch('./file.json').then(response => {
     callback(response)
   })
 }

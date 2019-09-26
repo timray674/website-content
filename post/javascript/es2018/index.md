@@ -132,7 +132,7 @@ A lookbehind is negated using `?<!`:
 
 In a regular expression pattern you can use `\d` to match any digit, `\s` to match any character that's not a white space, `\w` to match any alphanumeric character, and so on.
 
-This new feature extends this concept to all Unicode characters introducing `\p{}` and is negation `\P{}`.
+This new feature extends this concept to all Unicode characters introducing `\p{}` and its negation `\P{}`.
 
 Any [unicode](/unicode/) character has a set of properties. For example `Script` determines the language family, `ASCII` is a boolean that's true for ASCII characters, and so on. You can put this property in the graph parentheses, and the regex will check for that to be true:
 

@@ -697,7 +697,7 @@ JavaScript checks the internal code representation, so 🐶 < 🐺 < 🦊 becaus
 
 As we saw above, in a regular expression pattern you can use `\d` to match any digit, `\s` to match any character that's not a white space, `\w` to match any alphanumeric character, and so on.
 
-Unicode property escapes is an [ES2018](/es2018/) feature that introduces a very cool feature, extending this concept to all Unicode characters introducing `\p{}` and is negation `\P{}`.
+Unicode property escapes is an [ES2018](/es2018/) feature that introduces a very cool feature, extending this concept to all Unicode characters introducing `\p{}` and its negation `\P{}`.
 
 Any [unicode](/unicode/) character has a set of properties. For example `Script` determines the language family, `ASCII` is a boolean that's true for ASCII characters, and so on. You can put this property in the graph parentheses, and the regex will check for that to be true:
 

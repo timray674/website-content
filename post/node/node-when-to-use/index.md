@@ -20,7 +20,7 @@ It is the only language that can run inside a Web Browser, which gives it a uniq
 
 With the rise of React Native, Electron and similar solutions, it's also the only language which you can use to create web apps, frontend and backend, mobile apps, desktop apps.
 
-It's pretty universal, and once you master the JavScript language in one area, your skills can be easily ported into another area and you just need to learn the environment differences (for example, how to use React Native rather than Electron, or the DOM).
+It's pretty universal, and once you master the JavaScript language in one area, your skills can be easily ported into another area and you just need to learn the environment differences (for example, how to use React Native rather than Electron, or the DOM).
 
 This is something you will not find anywhere else.
 

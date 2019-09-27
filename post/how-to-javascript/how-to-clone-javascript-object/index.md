@@ -1,6 +1,7 @@
 ---
 title: "How to deep clone a JavaScript object"
 date: 2018-05-05T07:06:15+02:00
+updated: 2019-08-05T07:06:15+02:00
 description: "JavaScript offers many ways to copy an object, but not all provide deep copy. Learn the most efficient way, and also find out all the options you have"
 tags: js
 ---

@@ -2,15 +2,15 @@
 title: "What is a port"
 description: "Find out what is a port in networking"
 date: 2019-09-05T07:00:00+02:00
-tags: networks
+tags: network
 ---
 
 When making network requests, you use an **IP address**, or a host name, and a **port**.
 
 Like this:
 
-- `http://localhost:8080`
-- `ftp://127.0.0.1:29392`
+- `http://localhost:8080` (port 8080)
+- `ftp://127.0.0.1:29392` (port 29392)
 
 What is a port, exactly?
 

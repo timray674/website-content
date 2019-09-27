@@ -5,7 +5,7 @@ date: 2018-02-02T07:00:00+02:00
 updated: 2019-04-15T07:00:00+02:00
 booktitle: "Fetch API"
 medium: true
-tags: network
+tags: browser
 ---
 
 <!-- TOC -->

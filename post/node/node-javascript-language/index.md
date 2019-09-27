@@ -38,7 +38,3 @@ The following concepts are also key to understand asynchronous programming, whic
 - Async and Await
 - Closures
 - The Event Loop
-
-Luckily I wrote a free ebook that explains all those topics, and it's called **JavaScript Fundamentals**. It's the most compact resource you'll find to learn all of this.
-
-You can find the ebook at the bottom of this page: <https://flaviocopes.com/javascript/>.

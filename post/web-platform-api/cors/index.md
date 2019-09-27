@@ -4,7 +4,7 @@ description: "An introduction to Cross-Origin Resource Sharing, the way to let c
 date: 2018-04-09T07:00:29+02:00
 updated: 2019-04-25T07:00:29+02:00
 booktitle: CORS
-tags: network
+tags: browser
 ---
 
 A JavaScript application running in the browser can usually only access HTTP resources on the same domain (origin) that serves it.

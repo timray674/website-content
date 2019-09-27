@@ -2,7 +2,7 @@
 title: The Channel Messaging API
 description: The Channel Messaging API allows iframes and workers to communicate with the main document thread, by passing messages
 date: 2018-02-07T08:04:59+02:00
-updated: 2019-05-11T07:06:29+02:00
+updated: 2019-09-10T07:06:29+02:00
 tags: browser
 ---
 
@@ -12,6 +12,7 @@ tags: browser
   - [How it works](#how-it-works)
 - [An example with an iframe](#an-example-with-an-iframe)
 - [An example with a Service Worker](#an-example-with-a-service-worker)
+- [Browser support](#browser-support)
 
 <!-- /TOC -->
 
@@ -206,3 +207,8 @@ self.addEventListener('message', event => {
   event.ports[0].postMessage(data)
 })
 ```
+
+## Browser support
+
+The Channel Messaging API is currently supported by all major browsers, many of them since a long time, so even older versions are supporting it.
+Check out all the details on <https://caniuse.com/#feat=channel-messaging>.

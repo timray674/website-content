@@ -12,4 +12,4 @@ Simple solution:
 Array(12).fill(0)
 ```
 
-fill() is a new method introduced in [ES6](/es6/).
+`fill()` is a new method introduced in [ES6](/es6/).

@@ -2,7 +2,7 @@
 title: "XMLHttpRequest (XHR)"
 description: "The introduction of XMLHttpRequest (XHR) in browsers in the mid 2000's was a huge win for the Web Platform. Let's see how it works."
 date: 2018-04-05T07:07:49+02:00
-tags: network
+tags: browser
 ---
 
 <!-- TOC -->

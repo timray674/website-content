@@ -1,5 +1,6 @@
 ---
 title: Introduction to WebSockets
+seotitle: WebSockets Tutorial
 date: 2018-04-28T06:04:59+02:00
 description: "WebSockets are an alternative to HTTP communication in Web Applications. They offer a long lived, bidirectional communication channel between client and server. Learn how to use them to perform network interactions"
 booktitle: "WebSockets"

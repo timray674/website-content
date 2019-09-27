@@ -20,7 +20,7 @@ but `asynchronousFunction()` performs some asynchronous call in it (for example 
 
 ```js
 const asynchronousFunction = () => {
-  return fetch('./file.json').then(response => {
+	return fetch('./file.json').then(response => {
     return response
   })
 }
@@ -77,11 +77,9 @@ const mainFunction = () => {
 }
 ```
 
-The final piece of the puzzle is in the function that calls mainFunction. Since we can't return the response straight from `mainFunction`, because we get that asynchronously, the calling function must change how it processes it.
+The final piece of the puzzle is in the function that calls `mainFunction`. Since we can't return the response straight from `mainFunction`, because we get that asynchronously, the calling function must change how it processes it.
 
 So instead of `const result = mainFunction()`, we could use
-
-
 
 ```js
 const callbackFunction = result => {

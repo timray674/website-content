@@ -9,7 +9,7 @@ tags: security
 
 XSS is the term we use to define a particular kind of attack where a website (your website, if you don't pay attention) might be used as a vector to attack its users, because of an insecure handing of the user input.
 
-Basically a bad actor (the attacker) can inject JavaScript, in some way on another, into our site, by taking advantage of a vulnerability we left in our code.
+Basically a bad actor (the attacker) can inject JavaScript, in some way or another, into our site, by taking advantage of a vulnerability we left in our code.
 
 Using this vulnerability, they can steal user's information.
 

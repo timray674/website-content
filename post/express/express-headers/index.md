@@ -34,7 +34,7 @@ You can change any HTTP header value using `Response.set()`:
 res.set('Content-Type', 'text/html')
 ```
 
-There is a shortcut for the Content-Type header however:
+There is a shortcut for the Content-Type header, however:
 
 ```js
 res.type('.html')

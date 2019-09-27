@@ -27,7 +27,7 @@ If an object references other objects, when performing a **shallow copy** of the
 
 When performing a **deep copy**, those _external objects are copied as well_, so the new, cloned object is completely independent from the old one.
 
-Looking out how to deep clone an object in JavaScript on the internet, you'll find lots of answers but **not always the answer is correct**.
+Searching how to deep clone an object in JavaScript on the internet, you'll find lots of answers but the answers are **not always correct**.
 
 ## Easiest option: use Lodash
 

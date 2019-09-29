@@ -83,4 +83,4 @@ and you embed more components into it in a transparent way:
 
 When a component receives a component as a prop and returns a component, it's called higher order component.
 
-We'll see them in a little while.
+You can learn more about higher order components on my article [React Higher Order Components](https://flaviocopes.com/react-higher-order-components/).

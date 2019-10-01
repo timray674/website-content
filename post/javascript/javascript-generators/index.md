@@ -7,7 +7,7 @@ tags: js
 
 Generators are a special kind of function with the ability to pause itself, and resume later, allowing other code to run in the meantime.
 
-See the full JavaScript Generators Guide for a detailed explanation of the topic.
+[See the full JavaScript Generators Guide for a detailed explanation of the topic on MDN.](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Iterators_and_Generators)
 
 The code decides that it has to wait, so it lets other code "in the queue" to run, and keeps the right to resume its operations "when the thing it's waiting for" is done.
 

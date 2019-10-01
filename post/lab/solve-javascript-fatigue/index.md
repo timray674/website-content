@@ -49,7 +49,8 @@ When ES2017 will fully land in the browser, Babel will allow for ES2018, ES2019 
 
 ## Use the simplest alternatives
 
-The tooling is one of the hardest part of JavaScript nowadays. Yes, you can learn all about Webpack but when you start out, ignore everything and use ready-made solutions like [create-react-app](/react-create-react-app/), the React Boilerplate that hide the tiny details for you and let you focus on the code.
+The tooling is one of the hardest part of JavaScript 
+adays. Yes, you can learn all about Webpack but when you start out, ignore everything and use ready-made solutions like [create-react-app](/react-create-react-app/), the React Boilerplate that hide the tiny details for you and let you focus on the code.
 
 Don't start by setting up an environment, learn by using [Glitch](/glitch/): there's no simplest thing to start diving into modern JavaScript.
 
@@ -120,7 +121,7 @@ The other part of the spectrum is over-engineering. Don't use a tech just to fee
 
 ## You don't have any obligation to know everything. Find your balance.
 
-While it might sound from reading your Twitter feed, **no one knows all the things**. There's no way one can learn all the stuff that's going on in frontend development. This is a lifetime school. There's absolutely now way to graduate.
+While it might sound from reading your Twitter feed, **no one knows all the things**. There's no way one can learn all the stuff that's going on in frontend development. This is a lifetime school. There's absolutely no way to graduate.
 
 ## Pick tech with user-friendly documentation
 

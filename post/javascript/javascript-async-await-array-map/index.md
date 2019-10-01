@@ -27,8 +27,9 @@ const getData = async () => {
   return await Promise.all(list.map(item => anAsyncFunction(item)))
 }
 
-const data = getData()
-console.log(data)
+getData().then(data => {
+  console.log(data)
+})
 ```
 
 The main thing to notice is the use of `Promise.all()`, which resolves when all it's promises are resolved.

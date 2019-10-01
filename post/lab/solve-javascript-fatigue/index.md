@@ -49,8 +49,7 @@ When ES2017 will fully land in the browser, Babel will allow for ES2018, ES2019 
 
 ## Use the simplest alternatives
 
-The tooling is one of the hardest part of JavaScript 
-adays. Yes, you can learn all about Webpack but when you start out, ignore everything and use ready-made solutions like [create-react-app](/react-create-react-app/), the React Boilerplate that hide the tiny details for you and let you focus on the code.
+The tooling is one of the hardest part of JavaScript nowadays. Yes, you can learn all about Webpack but when you start out, ignore everything and use ready-made solutions like [create-react-app](/react-create-react-app/), the React Boilerplate that hide the tiny details for you and let you focus on the code.
 
 Don't start by setting up an environment, learn by using [Glitch](/glitch/): there's no simplest thing to start diving into modern JavaScript.
 

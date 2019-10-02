@@ -25,7 +25,7 @@ Here's an example:
 spawn('ls', ['-lh', 'test'])
 ```
 
-In this case you run the `ls` command with 2 options: `-lh` and `test`. This results in the command `ls -lh test`, which (given that the `test` file exists, in the same folder you run this command in, results in the details about the file:
+In this case you run the `ls` command with 2 options: `-lh` and `test`. This results in the command `ls -lh test`, which (given that the `test` file exists in the same folder you run this command in), results in the details about the file:
 
 ```sh
 -rw-r--r--  1 flaviocopes  staff     6B Sep 25 09:57 test

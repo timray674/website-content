@@ -11,7 +11,7 @@ But I always worked independently, meaning I was never hired. I just worked as a
 
 ## Freedom
 
-The best thing about being independent is freedom. If you are an employee, you have a boss. If you are a contractor, you have a client. You can have multiple clients, too. I never had multiple clients because I always wanted to build my own business. One the side. As an employee, in some countries depending on the contract your employer might have the rights to everything you create in your spare time. That's madness. As an independent contractor you can work on side projects with all the freedom you want. Actually, the more *things* you have, the better: your portfolio grows, your perceived value grows, your personal brand grows, your next contract will be better paying.
+The best thing about being independent is freedom. If you are an employee, you have a boss. If you are a contractor, you have a client. You can have multiple clients, too. I never had multiple clients because I always wanted to build my own business on the side. As an employee, in some countries depending on the contract your employer might have the rights to everything you create in your spare time. That's madness. As an independent contractor you can work on side projects with all the freedom you want. Actually, the more *things* you have, the better: your portfolio grows, your perceived value grows, your personal brand grows, your next contract will be better paying.
 
 ## Flexibility
 

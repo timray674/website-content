@@ -51,7 +51,7 @@ In 2007 I was an engineering student without any idea of what I wanted to do aft
 
 I had many ups and downs, great disappointments, huge failures, but also great satisfactions.
 
-After 10 years I can share all the lessons I learned. I don't think I have the absolute knowledge, for sure, but I know that this post will help those who still need to try going out on their own, and are a little afraid as they do not know where to start or what to expect.
+After 10 years I can share all the lessons I've learned. I don't think I have the absolute knowledge, for sure, but I know that this post will help those who still need to try going out on their own, and are a little afraid as they do not know where to start or what to expect.
 
 **The way you can reach freedom is to create a small business and keep it small**.
 
@@ -78,10 +78,10 @@ With a lifestyle business you want to work to reach a point where:
 
 Ultimately, **growing means**:
 
-- be forced to grow the revenues, to pay your employees
-- increased operating and bureaucracy management costs
-- increased time spent in the business
-- increased stress
+- being forced to grow the revenues, to pay your employees
+- increasing operating and bureaucracy management costs
+- increasing time spent in the business
+- increasing stress
 - less flexibility
 - less freedom
 
@@ -89,7 +89,7 @@ That's not what I want you to do.
 
 A lifestyle business is the type of business that is founded with the goal of generating and maintaining a certain level of revenue over time, providing the basis to enjoy a certain lifestyle.
 
-Using the internet. The internet is an amazing tool that in 2019 we can use to get access to ~50% of the world population, wherever they might be, at any time during the day. Never before in the history of the human kind people have had this opportunity.
+Using the internet. The internet is an amazing tool that in 2019 we can use to get access to ~50% of the world population, wherever they might be, at any time during the day. Never before in the history of the human kind have people had this opportunity.
 
 What is not a lifestyle business for example:
 
@@ -125,10 +125,10 @@ Once the system is set, the money continues to flow even while we are sleeping o
 
 Don't look for funds from accelerators, investors, family, friends, VC, or anything else.
 
-Accelerators, VCs or angel investors generally do give you a person you’ll need to respond to your every action. So if you want to keep control and especially freedom, avoid it like the plague.
+Accelerators, VCs or angel investors generally do give you a person you’ll need to respond to for every action you take. So if you want to keep control and especially freedom, avoid it like the plague.
 Making money from family or friends will only ruin the relationship if things don't go as you think (and things almost always don’t go as you think they will).
 
-In any case, seeking and managing money is a distraction from your goal. don't use other people money. don't start a business that requires a big amount of money to start with, if you don’t have it.
+In any case, seeking and managing money is a distraction from your goal. Don't use other people money. Don't start a business that requires a big amount of money to start with, if you don’t have it.
 
 The best idea does not need any money, but only time. It takes a long time to grow organically, bootstrapped, but it's worth it.
 
@@ -137,11 +137,11 @@ If your idea requires more than 5000$ and you don't have them ready, change idea
 If your idea needs some reasonable amount of money and you don’t have it yet, work to get the money. Freelance. Work as a contractor. And wait, working on your idea on the weekend.
 If you don't have an existing network of contacts, or a marketplace specialised in what you do, sites such as Fiverr, Upwork or others are perfect to make some money on the side. If you are starting from scratch, find a temporary job in the industry of your interest.
 
-If you already have a job, keep it and work on your project in the free time.
+If you already have a job, keep it and work on your project in your free time.
 
-The money you make will be useful for purchasing freelance services from the pool of talent in areas where you lack the skills, in fact managing your company alone does not mean that you have to do it all by yourself.
+The money you make will be useful for purchasing freelance services from the pool of talent in areas where you lack the skills; managing your company alone does not mean that you have to do it all by yourself.
 
-You may be a programmer and make pleasing interfaces is not your strength. Maybe you don't know where to start with marketing. You may have no idea how to make a convincing email, or maybe you think you know, but in reality you don’t. Or, you're a designer and you have no idea how to bring your product to light, and the idea of ​​learning programming is a taboo.
+You may be a programmer and making pleasing interfaces is not your strength. Maybe you don't know where to start with marketing. You may have no idea how to make a convincing email, or maybe you think you know, but in reality you don’t. Or, you're a designer and you have no idea how to bring your product to light, and the idea of ​​learning programming is a taboo.
 
 Don't block yourself. You will find many people able to help you with these tasks, just look around and if you don't have the resources to pay, even trading your services might be an idea, sometimes you just need to ask.
 
@@ -153,43 +153,43 @@ Here are some examples of what you might want.
 
 If you are starting from scratch, and maybe you are still a student, you might want to earn enough to live off, and to never ever have to work for anyone else.
 
-If you’re looking for a job and you can’t find it right now, you might want to create your own job, because maybe your skills are not appreciated by the companies you applied, but you could sell them online.
+If you’re looking for a job and you can’t find it right now, you might want to create your own job, because maybe your skills are not appreciated by the companies you applied to, but you could sell them online.
 
-If you've just been fired, you will want to take advantage of your knowledge you currently have.
+If you've just been fired, you will want to take advantage of the knowledge you currently have.
 
 If you are an employee, you might want to make some money "on the side”, work part-time and earn a bit of side income, or prepare to leave your job and set out on your own.
 
-If you work as a freelance, you might want to stop trading hours for money.
+If you work as a freelancer, you might want to stop trading hours for money.
 
-In each of these cases, you share a certain kind of situation and you hoping the adventure will go for the best, and you would like to improve the quality of your life.
+In each of these cases, you share a certain kind of situation and you hope the adventure will work out for the best, and you would like to improve the quality of your life.
 
-What is the purpose for which you open an activity? Only you know it, but don't start with a wrong perspective. For example, don't think you will make a lot of money within a few months, because it will not happen.
+What is the purpose for which you open an activity? Only you know, but don't start with the wrong perspective. For example, don't think you will make a lot of money within a few months, because it will not happen.
 
-Sure, _in theory_ it could happen, but only if the alignment of the stars is perfect, and in 99% of cases this will not happen. It’s more likely to win a lottery, so don't even think about it. If you're looking for this, you're reading the wrong post as it does not explain you how to achieve that goal.
+Sure, _in theory_ it could happen, but only if the alignment of the stars is perfect, and in 99% of cases this will not happen. It’s more likely to win the lottery, so don't even think about it. If you're looking for this, you're reading the wrong post as it does not explain how you can achieve that goal.
 
-The goal I am talking about in this post is lifestyle business,  creating something that gives you satisfaction day by day, and over time generates a good economic return so that we no longer have to work for anyone else, we can work when we want to, and create an automated business.
+The goal I am talking about in this post is a lifestyle business; creating something that gives you satisfaction day by day, and over time generates a good economic return so that we no longer have to work for anyone else, we can work when we want to, and create an automated business.
 
-Here is what you can aim to, in the medium term: financial independence, independence from where you live and freedom, control and power.
+Here is what you can aim to in the medium term: financial independence, independence from where you live and freedom, control and power.
 
-- **financial independence**: you will not become wealthy in 3 months but you can reasonably think that with time you will be able to build a source of cash that can first integrate and then replace your salary (assuming you Have one).
+- **financial independence**: you will not become wealthy in 3 months but you can reasonably think that with time you will be able to build a source of cash that can first integrate and then replace your salary (assuming you have one).
 - **Independence from where you live**: One of the main advantages of online business, made in a certain way, is total independence from the location. No matter where you are, the important thing is to give your customer what they want.
 - **freedom, control and power**: creating a business, a system that can give you financial freedom, and have the freedom and power to decide from day to day our fate. If we work with commitment, nothing is impossible. Woke up with a new idea? You can start testing it today, no one can deny that to us.
 
-After the part where you dream about the idea and imagine how it might be, there's hard work to do. Certainly it will not be like in movies, TV series or as described in magazines or websites. For the simple reason that when someone is listed as an example in such places, is between the 1% of the lucky ones. No one talks about the rest.
+After the part where you dream about the idea and imagine how it might be, there's hard work to do. Certainly it will not be like in movies, TV series or as described in magazines or websites. For the simple reason that when someone is listed as an example in such places, it's because that idea is in their 1% of successful ideas. No one talks about the rest.
 
-If you are a programmer thinking of making and selling your software product seems like a fun idea, but remember that after you have completed the product, the rest is technical or commercial support to customers, debugging, writing documentation, dealing with the server, optimize the funnel, write emails, respond to emails, respond to feature requests, marketing, marketing, marketing. If your passion is programming, you’d better continue to do the programmer for someone else.
+If you are a programmer, thinking of making and selling your software product seems like a fun idea. But remember that after you have completed the product, the rest is technical or commercial support to customers, debugging, writing documentation, dealing with the server, optimizing the funnel, writing emails, responding to emails, responding to feature requests, marketing, marketing, marketing. If your passion is programming, you’d be better off programming for someone else.
 
-But if you look forward learning everything you don't know and learn tons of marketing and customer acquisition strategies, great!
+But if you look forward to learning everything you don't know and learning tons of marketing and customer acquisition strategies, great!
 
-In any case, it will be a success, because even if it does not go as you hope, you will know much, much more in the next attempt.
+In any case, it will be a success, because even if it does not go as you hope, you will know much, much more for your next attempt.
 
 ## Everything you learn will be repeatable
 
-The process of bringing a product from idea to being sold successfully is hard, will require a lot of learning and you will need to invest a lot of time.
+The process of bringing a product from idea to being sold successfully is hard, will require a lot of learning, and you will need to invest a lot of time.
 
-Even if the product will not succeed, the time invested will never be wasted. All you will learn in the process are reusable abilities that will come handy in the future, and also can be sold as skills, as in the world there is a great need for people who can ship products.
+Even if the product doesn't succeed, the time invested will never be wasted. All you will learn in the process are reusable abilities that will come in handy in the future, and can also be sold as skills, as in the world there is a great need for people who can ship products.
 
-If you do it once, next time you will already have all the skills you need. You will already know several things and above all you will learn from mistakes and experience.
+If you do it once, next time you will already have all the skills you need. You will already know several things and above all else you will learn from mistakes and experience.
 
 Or, if the first time you have a good response, you can repeat the procedure and see if it's replicable, if you've found a system that can be applied to your future products as well.
 
@@ -208,7 +208,7 @@ These are topics that take a long time to be learned and I can't explain them al
 
 Obviously, to stay in business you need to make some money. What is the minimum amount of revenue you should target?
 
-Initially set an achievable goal. Don't think that launching your app, book, web app, online course or anything else, customers will automatically come. The “build it, they will come” approach rarely works.
+Initially set an achievable goal. Don't think that launching your app, book, web app, online course or anything else, customers will automatically come. The “if you build it, they will come” approach rarely works.
 
 Setting an achievable goal brings two important consequences: there will be a reason for celebration and satisfaction once achieved, and will be a great encouragement, and setting a low goal avoids that you immediately abandon your business if you realize no one is buying your product.
 
@@ -225,9 +225,9 @@ If you do more, it will already be a great achievement.
 
 What matters most is not making a huge amount the first month, but to get started. The first couple dollars you’ll make from your own products will be awesome, and you’ll be thrilled.
 
-## Multiplies personalities
+## Multiple personalities
 
-It's not enough to be experienced in your domain. You obviously have to be experienced in your field, but this is not enough to succeed.
+It's not enough to be experienced in your domain; you obviously have to be experienced in your field, but this is not enough to succeed.
 
 Michael Gerber in his books _The E-Myth Revisited_ lists the three basic roles of a business, and you have to impersonate them altogether:
 
@@ -274,7 +274,7 @@ In the case of an Internet business, this could happen:
 - Amazon changes something in its system and you are no longer among the recommended products
 - Google updates its search algorithms and from the first page you go to page 8, becoming invisible
 
-In the world today, you need to be quick, up-to-date, agile and snappy. What worked fine 5 years ago, today does not work anymore.
+In the world today, you need to be quick, up-to-date, agile and snappy. What worked fine 5 years ago, does not work anymore.
 
 Some trivial example of how digital reality changes?
 
@@ -284,7 +284,7 @@ Some trivial example of how digital reality changes?
 
 Think of the bookstores, how many closed doors in the last 10 years, and think about taxis after Uber.
 
-Radical changes, things that we take today are realities introduced very recently, in relative terms.
+Radical changes, things that we take for granted today are realities introduced very recently, in relative terms.
 
 The marketing strategy that last year was perfect today starts to lose its effectiveness.
 
@@ -294,12 +294,12 @@ In a time of great change, those who don't move are destined for oblivion, while
 
 In short, nothing stands still, and whoever stops while everything around changes, dies.
 
-Not always the changes are negative, the opposite may happen, or new opportunities will come out:
+The changes are not always negative, the opposite may happen, or new opportunities will come out:
 
-- A new CMS is launched on the market, and while on WordPress there are another 1000 plugins that do the same thing that does yours, on that CMS you would be the only one, becoming the standard of fact
+- A new CMS is launched on the market, and while on WordPress there are another 1000 plugins that do the same thing that yours does, on that CMS you would be the only one, becoming the de facto standard
 - your competitors fail and you can get their customers
 - your competitor who used so-called "gray hat" SEO techniques is penalized by Google and now you're the first in the list for many new keywords
-- a famous person in your industry advises your product to its 30000 fans on Facebook
+- a famous person in your industry promotes your product to its 30000 fans on Facebook
 
 These are just the changes you don't have any influence on, but there is a lot you can do to start a change, for example:
 

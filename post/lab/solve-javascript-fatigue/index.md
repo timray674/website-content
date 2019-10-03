@@ -23,7 +23,7 @@ It was probably 2012-2013, the huge changes that ES6 would bring us were all ove
 
 At first, I could not pick up all the things that were going on. I could not accept so many changes all at once. JavaScript was changing but I was resistant. It took me so much to learn it properly, and it was changing under my feet.
 
-I found really *spot on* a comment made on a blog post when it argued that "*learning modern JavaScript was tough if you haven't been there since the beginning*":
+I found a really *spot on* comment made on a blog post when it argued that "*learning modern JavaScript was tough if you haven't been there since the beginning*":
 
 > I would argue being there since the beginning (yes, I'm *that* old) makes it even tougher  -  Tim Tate
 
@@ -31,7 +31,7 @@ I dived into JavaScript and Node.js seriously in 2012, and I had never experienc
 
 `var` was left in the dust.
 
-`function` never exist any more.
+`function` does not exist anymore.
 
 Prototype-based inheritance, which took a long time to learn properly, is gone, hidden under the 🌈 carpet of classes.
 
@@ -51,22 +51,21 @@ When ES2017 will fully land in the browser, Babel will allow for ES2018, ES2019 
 
 ## Use the simplest alternatives
 
-The tooling is one of the hardest part of JavaScript nowadays. Yes, you can learn all about Webpack but when you start out, ignore everything and use ready-made solutions like [create-react-app](/react-create-react-app/), the React Boilerplate that hide the tiny details for you and let you focus on the code.
+The tooling is one of the hardest parts of JavaScript nowadays. Yes, you can learn all about Webpack but when you start out, ignore everything, and use ready-made solutions like [create-react-app](/react-create-react-app/), the React Boilerplate will hide the tiny details for you and let you focus on the code.
 
-Don't start by setting up an environment, learn by using [Glitch](/glitch/): there's no simplest thing to start diving into modern JavaScript.
+Don't start by setting up an environment, learn by using [Glitch](/glitch/). There's no simpler way to start diving into modern JavaScript.
 
 ## No more huge releases
 
-ES6 was so big that the ECMAScript committee decided to do smaller releases next time. This is why ES6 is also called ES2015, and was the first release with the year- we'll have a yearly release from now on.
-It's easier to catch up, will have less changes as the time to add them is limited, and it's predictable (surrend, there will be change).
+ES6 was so big that the ECMAScript committee decided to do smaller releases next time. This is why ES6 is also called ES2015, and was the first release with the year- we'll have a yearly release from now on. It's easier to catch up, will have less changes as the time to add them is limited, and it's predictable (keep in mind though, there will be change).
 
 ## Ignore the buzz
 
 If you're like me, you might follow a lot of people on Twitter that are always on the edge. Maybe some thought leaders that dictate what's the next big thing. They say to use X, everyone else uses X.
 
-Maybe they like to show their snippets using the latest APIs which are not even close to be standard, but can be used with a flag in the browser.
+Maybe they like to show their snippets using the latest APIs which are not even close to being standard, but can be used with a flag in the browser.
 
-They might have a good reason. You do not. Don't fall in the trap of the new shiny toys, focus on your work.
+They might have a good reason. You do not. Don't fall in the trap of the shiny new toys, focus on your work.
 
 ## There is not a new framework every week
 
@@ -76,22 +75,22 @@ But the thing to note is that the big things do not change much frequently.
 
 React is 6 years old.
 
-Vue is 5 years old
+Vue is 5 years old.
 
-5 years is a very long time in tech. Those are stable technologies. Learn it now, they are here to stay for long, too - not going away.
+5 years is a very long time in tech. Those are stable technologies. Learn it now, they are here to stay for a long time, too - they are not going away.
 
-> You have plenty of time to become an expert in any of those frameworks, they are not going to go away any time soon.
+> You have plenty of time to become an expert in any of those frameworks, they are not going to go away anytime soon.
 
 ## Accept that things come and go
 
 That said, anything has a lifecycle.
 
-A few years ago jQuery was used everywhere, now rarely new projects start with it.
+A few years ago jQuery was used everywhere, now rarely do new projects start with it.
 
-In 2013 Backbone.js was huge. Now it disappeared from the map.
+In 2013 Backbone.js was huge. Now it has disappeared from the map.
 CoffeeScript, removed from the face of earth.
 
-Ember.js, Angular.js and Meteor rocked and stayed at the top of their popularity for a few years, now the most talked ones seem to be React, Vue and Angular (which is different from Angular.js).
+Ember.js, Angular.js, and Meteor rocked and stayed at the top of their popularity for a few years, now the most talked about ones seem to be React, Vue, and Angular (which is different from Angular.js).
 
 Each cycle for those major frameworks usually lasts quite a few years. I still have lots of Ember.js applications running just fine, there is no need to update them if they do their job, and I don't plan to touch them.
 
@@ -99,11 +98,11 @@ Each cycle for those major frameworks usually lasts quite a few years. I still h
 
 ## You are not stupid for using jQuery
 
-Some people have a thick skin, but if you read around enough, you fill find out those that despise technology that once everyone used - since they know better, they want to inform you that you are wrong 😆
+Some people have a thick skin. But if you read around enough, you will find those that despise the technology that everyone  once used and inform you that you are wrong. 😆
 
-Having used PHP for a long time, I got used to this, it's normal to have people criticizing something popular. Even Go, which is amazing for its simplicity and sometimes criticized for that. You will always find someone that throws shit at something.
+Having used PHP for a long time, I got used to this, it's normal to have people criticizing something popular. Even Go, which is amazing for its simplicity, is sometimes criticized for that. You will always find someone that throws shit at something.
 
-As an example, I have to cite this tweet by Pieter Levels, which built a huge independent business with a single PHP file.
+As an example, I have to cite this tweet by Pieter Levels, who built a huge independent business with a single PHP file.
 
 ![Pieter](pieter.png)
 
@@ -116,27 +115,27 @@ Remember:
 
 Most of the times tech is built from giant companies with needs completely, radically different than yours, or the ones of your small team. Go with what you know and make a difference even without using leading edge technology.
 
-Now, probably you don't need jQuery. But not in place of a framework - plain JavaScript is super fine.
+Now, you probably don't need jQuery. But not in the place of a framework - plain JavaScript is super fine.
 
-The other part of the spectrum is over-engineering. Don't use a tech just to feel smarter. Know it better. And learn when to use a framework or library helps you.
+The other part of the spectrum is over-engineering. Don't use tech just to feel smarter. Know it better. And learn when to use a framework or library that helps you.
 
 ## You don't have any obligation to know everything. Find your balance.
 
-While it might sound from reading your Twitter feed, **no one knows all the things**. There's no way one can learn all the stuff that's going on in frontend development. This is a lifetime school. There's absolutely no way to graduate.
+While it might sound like it from reading your Twitter feed, **no one knows all the things**. There's no way someone can learn all the stuff that's going on in frontend development. This is a lifetime school. There's absolutely no way to graduate.
 
 ## Pick tech with user-friendly documentation
 
-It's not by chance that React and Vue have an amazing documentation.
+It's not by chance that React and Vue have amazing documentation.
 It's a key part of their success.
 
 ## JavaScript will evolve again
 
-Last year the ECMAScript language introduced await/async and now that feature of the language is used a lot. Promise-based code looks simply bad, you feel the urge to rewrite everything.
+Last year the ECMAScript language introduced await/async and now that feature of the language is used a lot. Promise-based code simply looks bad, you feel the urge to rewrite everything.
 
-Don't do it, and instead use new features for new code you write.
+Don't do it, and instead use new features for the new code you write.
 The same will happen this year, with ES2018. Everyone will talk about them for a while, then we'll get back to work and we'll start talking about the ES2019 features.
 
-Embrace the change. It's much better than betting on a tech that then stalls and fades into being irrelevant in a few years: **JavaScript is here to stay**!
+Embrace the change. It's much better than betting on tech that stalls and then fades into being irrelevant in a few years: **JavaScript is here to stay**!
 
 ## Learn the basic fundamentals, and pick your own journey
 
@@ -146,6 +145,6 @@ Sometimes learning in 20% of the time the 80% of the things you will need is eno
 
 ## The journey has just begun
 
-JavaScript is still very young compared to other languages, it's hugely popular and it was able to dramatically change in the last few years. It attracts lots of new talented developers every day, and it's fascinating thinking about the JavaScript we'll write in 10 or 20 years from now.
+JavaScript is still very young compared to other languages, it's hugely popular and it was able to dramatically change in the last few years. It attracts lots of talented new developers every day, and it's fascinating thinking about the JavaScript we'll write in 10 or 20 years from now.
 
 ![Road](road.jpeg)

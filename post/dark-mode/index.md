@@ -2,11 +2,40 @@
 title: "How I added Dark Mode to my website"
 description: "The step by step instructions to make 2 versions of your website, to make it perfect for both day and night use"
 date: 2018-12-22T17:00:00+02:00
-updated: 2019-05-08T07:00:00+02:00
+updated: 2019-09-29T07:00:00+02:00
 tags: lab
 ---
 
 ![Dark mode](dark-mode.png)
+
+## Update: I now use Media Queries Level 5: `prefers-color-scheme`
+
+The [*Media Queries Level 5* specification](https://drafts.csswg.org/mediaqueries-5/) contains a new [`prefers-color-scheme`](https://drafts.csswg.org/mediaqueries-5/#prefers-color-scheme) media feature.
+
+This is currently supported in all major browsers. Chrome/Edge since release 76, Firefox since 67 and Safari (since version 12.1). Even iOS Safari,
+
+We can use it to tell if the user is browsing the page in dark or light mode:
+
+```css
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: black;
+    color: white;
+  }
+}
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: white;
+    color: black;
+  }
+}
+```
+
+I now use it to show a light version of the site by default, and a dark version if the system is in dark mode.
+
+If the system does not have dark mode built-in (old Windows / macOS, Linux) then my suggestion is to use an extension like [Night Eye](https://nighteye.app/) or similar.
+
+## How I implemented dark mode before `prefers-color-scheme` was available
 
 I recently redesigned my website. Here are 2 pictures of how it looked, for reference:
 
@@ -99,26 +128,3 @@ I could do that if the site was generated server-side, but it's a static site, s
 So when someone navigates to another page on my site, or loads the page for the first time on a second visit, I don't want to show a bright page while I determine the mode. Maybe the visitor is coding in the middle of the night in a dark room.
 
 I'd rather do that in light mode: show a dark page for a couple milliseconds and then turn it white again.
-
-## Media Queries Level 5: `prefers-color-scheme`
-
-The [*Media Queries Level 5* specification](https://drafts.csswg.org/mediaqueries-5/) contains a new [`prefers-color-scheme`](https://drafts.csswg.org/mediaqueries-5/#prefers-color-scheme) media feature.
-
-This is currently supported in Chrome since release 76 (Canary - at the time of writing Chrome stable is release 74) and in Safari (since version 12.1) and we can use it to tell if the user is browsing the page in dark or light mode:
-
-```css
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: black;
-    color: white;
-  }
-}
-@media (prefers-color-scheme: light) {
-  body {
-    background-color: white;
-    color: black;
-  }
-}
-```
-
-Hopefully this is going to be soon released in stable Chrome and Firefox!

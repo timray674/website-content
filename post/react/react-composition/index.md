@@ -1,6 +1,7 @@
 ---
 title: "React Concept: Composition"
 date: 2018-12-20T07:00:00+02:00
+updated: 2019-09-29T07:00:00+02:00
 description: "What is composition and why is it a key concept in your React apps"
 tags: react
 ---
@@ -83,4 +84,4 @@ and you embed more components into it in a transparent way:
 
 When a component receives a component as a prop and returns a component, it's called higher order component.
 
-You can learn more about higher order components on my article [React Higher Order Components](https://flaviocopes.com/react-higher-order-components/).
+You can learn more about higher order components on my article [React Higher Order Components](/react-higher-order-components/).

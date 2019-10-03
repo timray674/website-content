@@ -122,7 +122,7 @@ The other part of the spectrum is over-engineering. Don't use a tech just to fee
 
 ## You don't have any obligation to know everything. Find your balance.
 
-While it might sound from reading your Twitter feed, **no one knows all the things**. There's no way one can learn all the stuff that's going on in frontend development. This is a lifetime school. There's absolutely now way to graduate.
+While it might sound from reading your Twitter feed, **no one knows all the things**. There's no way one can learn all the stuff that's going on in frontend development. This is a lifetime school. There's absolutely no way to graduate.
 
 ## Pick tech with user-friendly documentation
 

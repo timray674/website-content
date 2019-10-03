@@ -11,7 +11,7 @@ The only way to have control over your future is to have your own business, and 
 
 Over the last few years, more and more people are working on their own, and forming collaborative networks rather than structuring as a company with leaders and employees. A true distributed company.
 
-Working as a cog is something we inherited from the industrial revolution, and it’s a 200 years old idea which is slowly going to fade away, replaced by a more agile and efficient model, for people that are willing to take the leap.
+Working as a cog is something we inherited from the industrial revolution, and it’s a 200 year old idea which is slowly going to fade away, replaced by a more agile and efficient model, for people that are willing to take the leap.
 
 Think what would happen if you were to become ill or for some reason not be able to work.
 You’ll not be able to help the business you work for, and unless they are obliged to keep you as an employee, what will happen is: you’ll be fired.

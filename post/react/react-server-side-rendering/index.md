@@ -158,4 +158,4 @@ It's still very much debatable if it's worth the trouble, complication and overh
 
 When Server Side Rendering is an important matter, my suggestion is to rely on pre-made libraries and tools that have had this goal in mind since the beginning.
 
-In particular, I suggest **Next.js** and **Gatsby**, two projects we'll see later on.
+In particular, I suggest [**Next.js**](/nextjs/) and [**Gatsby**](/gatsby/).

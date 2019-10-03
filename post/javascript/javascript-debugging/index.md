@@ -51,7 +51,7 @@ alert(b)
 const result = a + b
 ```
 
-This works fine if what you are passing to `alert()` is a string or a number. As soon as you have an array or an object things start to be too complicated for `alert()`, and you can use the [Console API](/console-api/). Staring with `console.log()`:
+This works fine if what you are passing to `alert()` is a string or a number. As soon as you have an array or an object things start to be too complicated for `alert()`, and you can use the [Console API](/console-api/). Starting with `console.log()`:
 
 ```js
 const a = calculateA()

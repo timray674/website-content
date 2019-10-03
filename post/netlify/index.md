@@ -1,89 +1,87 @@
 ---
-title: Netlify Lambda Functions Tutorial
-date: 2018-12-28T07:00:00+02:00
-description: "How to use Netlify Lambda Functions and add dynamic processing to JAMstack sites"
+title: A tutorial to host your Static Site on Netlify
+date: 2018-03-09T10:07:09+02:00
+updated: 2019-09-29T10:07:09+02:00
+description: "Discover Netlify, a great hosting service ideal for static sites which has a nice free plan, free CDN and it's blazing fast"
 tags: services
 ---
 
-I wrote about Netlify previously on my [Netlify tutorial](/netlify/). I use it to host this blog, and it's great.
+I host my blog on [Netlify](https://www.netlify.com).
 
-I also use it to run other sites, and all run on Hugo - which makes my stack 100% [JAMstack](/jamstack/).
+I moved a while ago, my previous hosting was having some issues that made my site unreachable for a few hours, and while I waited for it to get up online again, I searched around for a quick way to bring it back and I created a replica of my site on Netlify.
 
-The cool thing about JAM is that it's not all limited to static and "dumb" sites - you can do a LOT of things that are as dynamic as you want.
+Since this blog runs on [Hugo](https://gohugo.io), which is a Static Site Generator, I don't need a lot of work to move the blog to a new hosting. All I need is something that can serve HTML files, which is pretty much any hosting on the planet.
 
-Most of that power comes in the form of **lambda functions**.
+I started looking for the best platform for a static site, and a few stood out but I eventually tried Netlify, and I'm glad I did.
 
-You can have JavaScript on your site (or plan HTML forms) invoke a URL endpoint, which when called executes some predetermined code. Different providers offer support for various languages. Netlify currently supports Node.js and Go.
+![Netlify Logo](netlify-logo.png)
 
-In this tutorial we focus on lambda functions written in Node.js.
+## Introducing Netlify
 
-Netlify has a generous free tier limit, with up to 125.000 function invocations and a total of 100 hours of run time every month. Functions have 128MB of memory and each can execute for up to 10 seconds. For normal needs, this is more than enough.
+There are a few things that made a great impression to me before trying it.
 
-Internally, Netlify runs this function on **AWS Lambda**, abstracting away all the complexity of AWS for you.
+First, the **free plan is very generous** for free or commercial projects, with 100GB of free monthly bandwidth, and for a static site with just a few images here and there, it's a lot of space!
 
-How do we create a function? We upload a JavaScript file in the `functions` folder of the site.
+They include a global [CDN](/cdn/), to make sure speed is not a concern even in continents far away from the central location servers.
 
-In this file we must follow a method named `handler`:
+You can point your DNS nameservers to Netlify and they will handle everything for you with a very nice interface to set up advanced needs.
 
-```js
-exports.handler = (event, context, callback) => {
-  //functionality
-}
-```
+They of course support having a custom domain and HTTPS.
 
-If you are familiar with AWS Lambda, the function code will be familiar to you. If you've never used it, no worries - here's a brief overview of the parameters our handler receives:
+Coming from Firebase, I expected a very programmer friendly way to manage deploys, but I found it even better with regards to handling each Static Site Generator.
 
-- `event` is an object that contains data on the request
-- `context` contains the user information when using Identity for user authentication
-- `callback` is a function we can use to create a response
+## Netlify and Hugo
 
-The simplest thing we can do is return a positive response. To do so, we use the `callback()` method:
+I use Hugo, and locally I run a server by using its built-in tool `hugo server`, which handles rebuilding all the HTML every time I make a change, and it runs an HTTP server on port `1313` by default.
 
-```js
-exports.handler = (event, context, callback) => {
-  callback(null, {
-    statusCode: 200,
-    body: 'No worries, all is working fine!'
-  })
-}
-```
+To generate the static site, I have to run `hugo`, and this creates a series of files in the `public/` folder.
 
-Save this to a `functions/test.js` file.
+I followed this method on Firebase: I ran `hugo` to create the files, then `firebase deploy`, configured to push my `public/` folder content to the Google servers.
 
-The only thing you need to do to make it work is to configure the folder for the funcitons in the `netlify.toml` file:
+In the case of Netlify however, I linked it to my private GitHub repository that hosts the site, and every time I push to the master branch, the one I told Netlify to sync with, Netlify initiates a new deploy, and the changes are live within seconds.
 
-```
-[build]
-functions = "./functions"
-```
+![Dashboard](dashboard.png)
 
-Try this. Create the file in an empty folder, push it to a GitHub repository and create a new Netlify site from that repo.
+> TIP: if you use Hugo on Netlify, make sure you set HUGO_VERSION in `netlify.toml` to the latest Hugo stable release, as the default version might be old and (at the time of writing) does not support recent features like post bundles. [Here's my netlify.toml configuration file](https://gist.github.com/flaviocopes/a5db876bea8c5d896ee0d29153ab89e0).
 
-Once you do so, in the `Settings -> Functions` menu in Netlify a new menu will show up which shows the details of our functions usage:
+If you think this is nothing new, you're right, since this is not hard to implement on your own server (I do so on other sites not hosted on Netlify), but here's something new: you can preview any GitHub (or GitLab, or BitBucket) branch / PR on a separate URL, all while your main site is live and running with the "stable" content.
 
-![](functions-usage.png)
+Another cool feature is the ability to perform A/B testing on 2 different Git branches.
 
-The function, which was stored in the `functions/test.js` file, is accessible at <https://YOURSITENAME.netlify.com/.netlify/functions/test>.
+## Advanced functionality offered by Netlify for Static Sites
 
-![](function-working.png)
+Static sites have the obvious limitation of not being able to do any server-side operation, like the ones you'd expect from a traditional CMS for example.
 
-To access the request parameters, use the `event` object:
+This is an advantage (less security issues to care about) but also a limitation in the functionality you can implement.
 
-- `event.path` the request path
-- `event.httpMethod` the request HTTP method
-- `event.headers` the request headers
-- `event.queryStringParameters` the request query parameters
-- `event.body` the request body in JSON format
+A blog is nothing complex, maybe you want to add comments and they can be done using services like Disqus or others.
 
-Before we used
+Or maybe you want to add a form and you do so by embedding forms generated on 3rd party applications, like Wufoo or Google Forms.
 
-```js
-callback(null, {
-  statusCode: 200,
-  body: 'No worries, all is working fine!'
-})
-```
+Netlify provides a suite of tools to handle [Forms](https://www.netlify.com/docs/form-handling/#spam-filtering), authenticate users and even deploy and manage [Lambda functions](https://macarthur.me/posts/building-a-lambda-function-with-netlify/).
 
-to craft a response. You can also add a `headers` object which contains an associative array (object) with the header values.
+Need to password protect a site before launching it? ✅
 
-This repository by Netlify <https://github.com/netlify/netlify-functions-example> contains a lot of samples for Netlify Lambda Functions.
+Need to handle [CORS](/cors/)? ✅
+
+Need to have 301 redirects? ✅
+
+Need pre-rendering for your SPA? ✅
+
+I just scratched the surface of the things you can do with Netlify without reaching out to 3rd party services, and I hope I gave you a reason to try it out.
+
+## Previewing branches
+
+The GitHub integration works great with Pull Requests.
+
+Every time you push a Pull Request, Netlify deploys that branch on a specific URL which you can share with your team, or to anyone that you want.
+
+Here I made a Pull Request to preview a blog post, without making it available on my public blog:
+
+![GitHub Pull Request](github-pull-request.png)
+
+Netlify immediately picked it up, and automatically deployed it 🎉
+
+![The deployed preview](deploy-preview.png)
+
+Clicking the link points you to the special URL that lets you preview the PR version of the site.

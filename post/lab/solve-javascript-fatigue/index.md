@@ -19,7 +19,9 @@ Today, I love JavaScript and its ecosystem.
 
 I've been using JavaScript in some form or another since the nineties, and I have some books on my shelf that looks very funny today, full of `document.write` statements.
 
-JavaScript has hugely changed in the last few years. At first, I could not pick up all the things that were going on. I could not accept so many changes all at once. JavaScript was changing but I was resistant. I took so much to learn it properly, and now it's changing under my feet.
+It was probably 2012-2013, the huge changes that ES6 would bring us were all over the place.
+
+At first, I could not pick up all the things that were going on. I could not accept so many changes all at once. JavaScript was changing but I was resistant. It took me so much to learn it properly, and it was changing under my feet.
 
 I found a really *spot on* comment made on a blog post when it argued that "*learning modern JavaScript was tough if you haven't been there since the beginning*":
 
@@ -33,7 +35,7 @@ I dived into JavaScript and Node.js seriously in 2012, and I had never experienc
 
 Prototype-based inheritance, which took a long time to learn properly, is gone, hidden under the 🌈 carpet of classes.
 
-This was just the surface.
+This was just the surface. The whole JavaScript ecosystem has hugely changed in the last few years.
 
 ## Build all the things
 

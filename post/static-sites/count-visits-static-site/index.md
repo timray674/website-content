@@ -1,9 +1,12 @@
 ---
 title: "How to get the real number of pageviews of a static site"
 date: 2019-07-01T07:00:00+02:00
+updated: 2019-09-28T07:00:00+02:00
 description: "Given a static site, how do you get the real count of visitors?"
 tags: lab
 ---
+
+> Update: just use Netlify Analytics if you're serious about this.
 
 This is a static site. I use Google Analytics, and my audience is developers.
 

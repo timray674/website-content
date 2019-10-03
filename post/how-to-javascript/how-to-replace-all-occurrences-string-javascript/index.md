@@ -1,7 +1,7 @@
 ---
 title: "How to replace all occurrences of a string in JavaScript"
 date: 2018-07-02T07:06:15+02:00
-updated: 2019-05-28T07:06:15+02:00
+updated: 2019-09-29T07:00:00+02:00
 description: "Find out the proper way to replace all occurrences of a string in plain JavaScript, from regex to other approaches"
 tags: js
 ---

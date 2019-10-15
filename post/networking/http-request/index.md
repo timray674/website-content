@@ -86,7 +86,7 @@ TCP and UDP are two of the foundational protocols of computer networking. They s
 
 > How the UDP request is performed is not in the scope of this tutorial
 
-The DNS server might have the domain IP in the cache. It not, it will ask the **root DNS server**. That's a system (composed of 13 actual servers, distributed across the planet) that drives the entire internet.
+The DNS server might have the domain IP in the cache. If not, it will ask the **root DNS server**. That's a system (composed of 13 actual servers, distributed across the planet) that drives the entire internet.
 
 The DNS server does _not_ know the address of each and every domain name on the planet.
 

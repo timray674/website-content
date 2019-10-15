@@ -5,7 +5,7 @@ description: "Find out how to pass a parameter to onClick events for example, wi
 tags: react
 ---
 
-When you work on a React function component you might have the need to attach an event to onClick (or other events).
+When you work on a React functional component you might have the need to attach an event to onClick (or other events).
 
 You usually do:
 

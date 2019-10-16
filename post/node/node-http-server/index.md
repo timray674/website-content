@@ -12,6 +12,7 @@ Here is the HTTP web server we used as the Node Hello World application in the [
 ```js
 const http = require('http')
 
+const hostname = 'localhost'
 const port = 3000
 
 const server = http.createServer((req, res) => {
@@ -29,7 +30,7 @@ Let's analyze it briefly. We include the [`http` module](https://nodejs.org/api/
 
 We use the module to create an HTTP server.
 
-The server is set to listen on the specified port, `3000`. When the server is ready, the `listen` callback function is called.
+The server is set to listen on the specified hostname, `localhost` on port `3000`. When the server is ready, the `listen` callback function is called.
 
 The callback function we pass is the one that's going to be executed upon every request that comes in. Whenever a new request is received, the [`request` event](https://nodejs.org/api/http.html#http_event_request) is called, providing two objects: a request (an [`http.IncomingMessage`](https://nodejs.org/api/http.html#http_class_http_incomingmessage) object) and a response (an [`http.ServerResponse`](https://nodejs.org/api/http.html#http_class_http_serverresponse) object).
 
@@ -56,4 +57,3 @@ and we end close the response, adding the content as an argument to `end()`:
 ```js
 res.end('Hello World\n')
 ```
-

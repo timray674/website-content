@@ -44,7 +44,7 @@ The prefixes used are:
 - `-ms-` (Edge, Internet Explorer)
 - `-o-` (Opera, Opera Mini)
 
-Since Opera is Chromium-based and Edge will soon be too, `-o-` and `-ms-` will probably go soon out of fashion. But as we said, vendor prefixes as a whole are going out of fashion, too.
+Since Opera and Edge are Chromium based, `-o-` and `-ms-` will probably go soon out of fashion. But as we said, vendor prefixes as a whole are going out of fashion, too.
 
 Writing prefixes is hard, mostly because of uncertainty. Do you actually need a prefix for one property? Several online resources are outdated, too, which makes it even harder to do right.
 Projects like [Autoprefixer](https://github.com/postcss/autoprefixer) can automate the process in its entirety without us needing to find out if a prefix is needed any more, or the feature is now stable and the prefix should be dropped. It uses data from caniuse.com, a very good reference site for all things related to browser support.

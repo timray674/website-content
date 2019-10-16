@@ -155,7 +155,7 @@ To check if a Node has child nodes, use **`Node.hasChildNodes()`** which returns
 
 To access all the Children Element Nodes of a node, use **`Node.childNodes`**.
 
-The DOM also exposes a `Node.children` method. However, it not just includes Element nodes, but also the white space between elements as Text nodes. This is not something you generally want.
+The DOM also exposes a `Node.children` method. However, it does not just include Element nodes, but also the white space between elements as Text nodes. This is not something you generally want.
 
 ![Get the children of a node](dom-get-children.png)
 

@@ -7,7 +7,7 @@ tags: cli
 
 I've been using the [Fish Shell](https://fishshell.com) for months, and I think it's the best shell I ever used. For many reasons.
 
-People seem to stick with [Bash](/bash/) which is the default on many systems (Linux, macOS) or use Zsh which is "trendy" mainly thanks to the amazing [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh) project.
+People seem to stick with [Bash](/bash/) which is the default on many systems (update: now the macOS default is Zsh) or use Zsh, with a great tool like [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh) to make it even more amazing.
 
 Bash, while great, is a very basic shell, with a limited set of configurable options. I tend to use it mostly to run [Bash scripts](/bash-scripting/) (which are another topic) rather than as an interactive shell.
 Zsh offers a lot of features but requires a little bit of configuration to set up, which might frighten beginners. Also, too many options and freedom means you can get in a configuration paralysis pretty easily, and you end up changing the options 20 times in a week to make sure you're not missing out.

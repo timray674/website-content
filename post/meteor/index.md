@@ -1,15 +1,15 @@
 ---
 title: The Beginner's Guide to Meteor
 date: 2018-05-06T07:04:59+02:00
-description: "Meteor is an awesome web application platform. It's a great tool for both beginners and experts, it makes it super easy to start, and provides a huge ecosystem of libraries you can leverage"
+description: "Meteor is a web application platform. It's a tool for both beginners and experts, it makes it super easy to start, and provides a huge ecosystem of libraries you can leverage"
 booktitle: "Meteor"
 ---
 
-Meteor is an awesome web application platform.
+Meteor is a web application platform.
 
 Modern web applications can be **extremely complicated** to write. Especially for beginners.
 
-Meteor is a great tool for both beginners and experts, it makes it **super easy to start**, and provides a huge ecosystem of libraries you can leverage.
+Meteor is a tool for both beginners and experts, it makes it **easy to start**, and provides a huge ecosystem of libraries you can leverage.
 
 <!-- TOC -->
 
@@ -70,7 +70,7 @@ Meteor is a great tool for both beginners and experts, it makes it **super easy 
 
 ### JavaScript
 
-Meteor was one of the first popular approaches to just use JavaScript both on the client, and on the server, seamlessly.
+Meteor has been one of the first popular approaches to just use JavaScript both on the client, and on the server, seamlessly.
 
 Coupled with [**MongoDB**](/mongodb/), which is a Database which stores [JSON](/json/) objects, and uses Javascript as a query language, it makes JavaScript ubiquitous.
 
@@ -478,7 +478,7 @@ An example of reactive computation is the template helpers: every time a reactiv
 
 You can define your own reactive computations, and react when something changes upstream, by using `Tracker.autorun()`.
 
-We'll soon talk more in depth about it, in the meanwhile just know that this function
+This function:
 
 ```js
 Tracker.autorun(function () {

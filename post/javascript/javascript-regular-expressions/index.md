@@ -104,7 +104,7 @@ This is the first important difference between the two forms, but we'll see othe
 
 ## How does it work?
 
-The regular expression we defined as `re1` above is a very simple one. It searches the string `hey`, without any limitation: the string can contain lots of text, and `hey` in the middle, and the regex is satisfied. It could also contains just `hey`, and it will be satisfied as well.
+The regular expression we defined as `re1` above is a very simple one. It searches the string `hey`, without any limitation: the string can contain lots of text, and `hey` in the middle, and the regex is satisfied. It could also contain just `hey`, and it will be satisfied as well.
 
 That's pretty simple.
 

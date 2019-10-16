@@ -200,13 +200,7 @@ It's common to use the dash `-` to separate words in a class value, but it's jus
 
 Those are just 2 of the possible attributes you can have. Some attributes are only used for one tag. They are highly specialized.
 
-Other attributes can be used in a more general way. You just saw `id` and `class`, but we have other ones too:
-
-- `style` can be used to insert inline CSS rules on an element
-- `title`
-- TODO
-
-We'll see more about the specialized attributes soon, in the HTML tags reference.
+Other attributes can be used in a more general way. You just saw `id` and `class`, but we have other ones too, like `style` which can be used to insert inline CSS rules on an element.
 
 ### Case insensitive
 

@@ -108,7 +108,7 @@ These are filesystem commands:
 
 Every file on a Unix filesystem has permissions. `chmod` allows you to change those (not going into it now), and `chown` allows you to change the file *owner*.
 
-`cat`, `tail` and `grep` are two super useful commands to work with files. I will make a dedicated article for each of them soon.
+`cat`, `tail` and `grep` are two super useful commands to work with files.
 
 `pico`, `nano`, `vim` and `emacs` are commonly installed editors.
 

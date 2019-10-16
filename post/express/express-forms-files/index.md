@@ -2,6 +2,7 @@
 title: Handling file uploads in forms using Express
 description: "How to manage storing and handling files uploaded via forms, in Express"
 date: 2018-09-21T07:00:00+02:00
+updated: 2019-10-16T07:00:00+02:00
 tags: express
 tags_weight: 5
 path: express-forms-files
@@ -10,13 +11,15 @@ path: express-forms-files
 This is an example of an HTML form that allows a user to upload a file:
 
 ```html
-<form method="POST" action="/submit-form">
+<form method="POST" action="/submit-form" enctype="multipart/form-data">
   <input type="file" name="document" />
   <input type="submit" />
 </form>
 ```
 
-When the user presses the submit button, the browser will automatically make a `POST` request to the `/submit-form` URL on the same origin of the page. The browser sends the data contained, not encoded as as a normal form `application/x-www-form-urlencoded` , but as `multipart/form-data`.
+> Don't forget to add `enctype="multipart/form-data"` to the form, or files won't be uploaded
+
+When the user press the submit button, the browser will automatically make a `POST` request to the `/submit-form` URL on the same origin of the page. The browser sends the data contained, not encoded as as a normal form `application/x-www-form-urlencoded` , but as `multipart/form-data`.
 
 Server-side, handling multipart data can be tricky and error prone, so we are going to use a utility library called **formidable**. [Here's the GitHub repo](https://github.com/felixge/node-formidable), it has over 4000 stars and is well-maintained.
 
@@ -53,9 +56,9 @@ app.post('/submit-form', (req, res) => {
     }
     console.log('Fields', fields)
     console.log('Files', files)
-    files.map(file => {
+    for (const file of Object.entries(files)) {
       console.log(file)
-    })
+    }
   })
 })
 ```

@@ -1,7 +1,7 @@
 ---
 title: Git guide
 date: 2018-02-27T12:07:09+02:00
-updated: 2018-04-10T16:07:09+02:00
+updated: 2019-10-09T16:07:09+02:00
 description: "Git is a free and Open Source version control system (VCS), a technology used to track older versions of files, providing the ability to roll back and maintain separate different versions at the same time"
 booktitle: "Git"
 tags: git
@@ -19,9 +19,7 @@ Git makes it very easy for developers to collaborate on a codebase simultaneousl
 
 A very popular service that hosts Git repositories is [GitHub](/github), especially for Open Source software, but we can also mention BitBucket, GitLab and many others which are widely used by teams all over the world to host their code publicly and also privately.
 
-
----
-## Installing Git
+## How to install Git
 
 Installing Git is quite easy on all platforms:
 
@@ -51,8 +49,7 @@ or
 sudo yum install git
 ```
 
----
-## Initializing a repository
+## How to initialize a repository
 
 Once Git is installed on your system, you are able to access it using the command line by typing `git`.
 
@@ -72,8 +69,7 @@ What does this command do? It creates a `.git` folder in the folder where you ra
 
 Anything related to Git in your newly created repository will be stored into this `.git` directory, all except the `.gitignore` file, which I'll talk about in the next article.
 
----
-## Adding files to a repository
+## How to add files to a repository
 
 Let's see how a file can be added to Git. Type:
 
@@ -105,8 +101,7 @@ git reset README.txt
 
 But usually what you do once you add a file is commit it.
 
----
-## Commit changes
+## How to commit changes
 
 Once you have one or more changes to the staging area, you can commit them using
 
@@ -124,7 +119,6 @@ and permanently stores the edit you made into a record store, which you can insp
 
 ![Run git log](8.png)
 
----
 ## Branches
 
 When you commit a file to Git, you are committing it into the current branch.
@@ -145,7 +139,6 @@ The `git branch` command lists the branches that the repository has.
 
 When creating the new branch, that branch points to the latest commit made on the current branch. If you switch to it (using `git checkout develop`) and run `git log`, you'll see the same log as the branch that you were previously.
 
----
 ## Push and pull
 
 In Git you always commit locally. This is a very nice benefit over SVN or CSV where all commits had to be immediately pushed to a server.
@@ -202,7 +195,6 @@ In the case of push this is usually solved by pulling changes, analyzing the con
 
 In the case of pull, your working copy will automatically be edited with the conflicting changes, and you need to solve them, and make a new commit so the codebase now includes the problematic changes that were made on the remote.
 
----
 ## Command Line vs Graphical Interface
 
 Up to now I talked about the command line Git application.
@@ -233,8 +225,6 @@ Paid, at the time of writing only available for Mac and Win
 
 Free / Paid depending on the needs, for Mac, Win and Linux
 
-
----
 ## A good Git workflow
 
 Different developers and teams like to use different strategies to manage Git effectively. Here is a strategy I used on many teams and on widely used open source projects, and I saw used by many big and small projects as well.

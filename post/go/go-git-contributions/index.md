@@ -678,14 +678,3 @@ Here is the complete code for stats.go, with the contents of this second part of
 Here is what you'll get when running it:
 
 ![](output.png)
-
-## Are we finished? 🤔
-
-No! :warning: **The code is highly unoptimized** :warning: - even though it works 5x faster than the JS app I showed at the top of this post, there's still a world to improve!
-
-I'm closing the article here, because I'll soon add new articles that take this code as the base to improve with some key refactorings:
-
-1. implement searching for commits and repositories with goroutines to speed up the process
-2. optimize resources consumption and data sharing
-3. explain how to find where the code spends most of his time, and discover easy optimizations that can have a huge impact
-

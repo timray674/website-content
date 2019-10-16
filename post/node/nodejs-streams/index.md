@@ -20,7 +20,6 @@ path: node-streams
 - [How to get data from a readable stream](#how-to-get-data-from-a-readable-stream)
 - [How to send data to a writable stream](#how-to-send-data-to-a-writable-stream)
 - [Signaling a writable stream that you ended writing](#signaling-a-writable-stream-that-you-ended-writing)
-- [Conclusion](#conclusion)
 
 <!-- /TOC -->
 
@@ -230,7 +229,3 @@ readableStream.push('ho!')
 
 writableStream.end()
 ```
-
-## Conclusion
-
-This is an introduction to streams. There are much more complicated aspects to analyze, and I hope to cover them soon.

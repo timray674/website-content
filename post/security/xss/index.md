@@ -19,8 +19,6 @@ Based on how the XSS vulnerability is exploited, we have 3 major kinds of XSS at
 - reflected XSS
 - DOM-based XSS
 
-We'll see all about them very soon.
-
 ## Why is XSS dangerous?
 
 Imagine you have a website. An attacker can somehow inject JavaScript code that is served by your website, and it's executed - without your will, and without you knowing about it - by your user's browsers.

@@ -108,7 +108,7 @@ Statements can be grouped, using a block:
 
 Using this syntax, you can have multiple statements whenever JavaScript expects a single statement.
 
-We'll talk about control flow very soon. But in the meantime just be aware that any of the conditional control flow statements check an expression and depending on it they execute a statement, or a block:
+Be aware that any of the conditional control flow statements check an expression and depending on it they execute a statement, or a block:
 
 ```js
 if (condition === true) {
@@ -128,11 +128,13 @@ I'll go into all the different control flow structures in the next sections.
 
 ## Loop statements
 
-Loops is a big argument as well. We'll explore loops very soon, in the meantime just know that they work similarly to the `if` example above.
+Loops work similarly to the `if` example above.
 
 Some loops check an expression, and repeat a statement execution it until that  expression evaluates to true.
 
 Some other loops iterate over a list and execute a statement (or block) for each element of the list, until the list finishes.
+
+See my full [JavaScript loops tutorial](/javascript-loops/).
 
 ## Miscellaneous statements
 
@@ -158,8 +160,8 @@ try {
 
 ### `use strict`
 
-This statement applies strict mode (we'll soon see what that means)
+This statement applies [strict mode](/javascript-strict-mode/).
 
 ### `debugger`
 
-Adds a breakpoint which the debugger can use. We'll soon see it in practice.
+Adds a breakpoint which the [debugger](/javascript-debugging/) can use.

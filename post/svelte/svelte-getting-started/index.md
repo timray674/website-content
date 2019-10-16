@@ -25,7 +25,7 @@ npx degit sveltejs/template firstapp
 
 This will download and run the [degit command](https://github.com/Rich-Harris/degit), which in turn downloads the latest code of the Svelte project template living at [https://github.com/sveltejs/template](https://github.com/sveltejs/template), into the `firstapp` folder.
 
-Now go into that `firstapp` folder and run `npm install` to download the additional dependencies of hte template. At the time of writing, those are the dependencies of that project template:
+Now go into that `firstapp` folder and run `npm install` to download the additional dependencies of the template. At the time of writing, those are the dependencies of that project template:
 
 ```
 "npm-run-all"
@@ -75,5 +75,3 @@ color: purple;
 ```
 
 If you are familiar with [Vue.js](https://flaviocopes.com/tags/vue/), it's a similar concept. You define the markup, the style and the JavaScript for each component in a single `.svelte` file.
-
-> More on Svelte coming soon!

@@ -29,7 +29,7 @@ node --experimental-modules app.js
 
 You should be good to go!
 
-An alternative is to avoid adding the `"type": "module"` line in your `package.json` file and instead rename your `app.js` file (or whatever) to `app.mjs`. I prefer the first option.
+An alternative is to avoid adding the `"type": "module"` line in your `package.json` file and instead rename your `app.js` file (or whatever) to `app.mjs`.
 
 Note that now the `require()` syntax will stop working.
 

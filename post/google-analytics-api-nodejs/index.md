@@ -6,7 +6,7 @@ tags_weight: 13
 tags: node
 ---
 
-> Note: I just noticed uBlock Origin blocks the images on this post, because they have the `analytics` word in the path. So make sure you disable it for this page, to see the images 🖼. I don't have ads. You can still follow along without them, but it's better with them of course :)
+> Note: uBlock Origin blocks the images on this post, because they have the `analytics` word in the path. So make sure you disable it for this page, to see the images 🖼
 
 In this post I'm going to show some examples of using the Google Analytics API with [Node.js](/nodejs/).
 

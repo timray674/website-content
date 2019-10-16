@@ -182,7 +182,7 @@ format(22) //22nd
 
 ---
 
-Note that there are nice things coming soon to Intl, like [`Intl.RelativeTimeFormat`](https://developers.google.com/web/updates/2018/10/intl-relativetimeformat) and [`Intl.ListFormat`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ListFormat#Specifications), which are at the time of writing only available in browser previews (on Chrome Canary, for example) but will be soon. The Web is evolving at a fast pace.
+Note that there are nice things coming soon to Intl, like [`Intl.RelativeTimeFormat`](https://developers.google.com/web/updates/2018/10/intl-relativetimeformat) and [`Intl.ListFormat`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ListFormat#Specifications), which are at the time of writing only available in Chrome and Opera.
 
 ![](Screen Shot 2019-01-27 at 15.34.57.png)
 

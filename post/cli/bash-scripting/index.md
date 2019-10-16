@@ -568,7 +568,3 @@ function cleanFolder {
 }
 cleanFolder "/Users/flavio/Desktop"
 ```
-
-## Wrapping up
-
-That's it for this introductory post on Bash Shell scripting! Hopefully I will make more tutorials on it soon.

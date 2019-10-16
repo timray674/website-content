@@ -276,12 +276,6 @@ func checkDuplicates(visited *map[string]string) {
 }
 ```
 
-## Wrapping up
-
-That's it for this article! This crawler can be expanded to provide much more functionality, maybe soon I'll cover some more site crawling utilities.
-
-See you!
-
 ## Credits
 
 [_The Go Programming Language_](https://gopl.io) book by Donovan and Kernighan uses a web crawler as an example throughout the book, changing it in different chapters to introduce new concepts.

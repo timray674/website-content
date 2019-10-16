@@ -94,7 +94,7 @@ I sometimes draw images using the iPad and an Apple Pencil. I use the [Sketches 
 
 I have one main newsletter. I send an email every week, with the list of the posts I wrote during the week, plus any new resource I create.
 
-It runs on [ConvertKit](https://convertkit.com), highly recommended to create and grow a mailing list.
+I used ConvertKit in the past. It's great tool to start. Now I use a self-hosted solution.
 
 Find out [why you should create an email list](/why-email-list/).
 

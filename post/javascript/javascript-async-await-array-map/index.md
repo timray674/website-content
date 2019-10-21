@@ -1,5 +1,5 @@
 ---
-title: "How to use Async and Await with Array.map()"
+title: "How to use Async and Await with Array.prototype.map()"
 description: "Using async/await combined with map() can be a little tricky. Find out how."
 date: 2018-10-11T07:00:00+02:00
 tags: js
@@ -32,7 +32,7 @@ getData().then(data => {
 })
 ```
 
-The main thing to notice is the use of `Promise.all()`, which resolves when all it's promises are resolved.
+The main thing to notice is the use of `Promise.all()`, which resolves when all its promises are resolved.
 
 `list.map()` returns a list of promises, so in `result` we'll get the value when everything we ran is resolved.
 

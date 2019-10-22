@@ -12,13 +12,8 @@ Just comparing them using `getTime()` was not enough, as dates could have a diff
 I ended up using this function:
 
 ```js
-const firstDateIsPastDayComparedToSecond = (firstDate, secondDate) => {
-  if (firstDate.setHours(0,0,0,0) - secondDate.setHours(0,0,0,0) >= 0) { //first date is in future, or it is today
-    return false
-  }
-
-  return true
-}
+const firstDateIsPastDayComparedToSecond = (firstDate, secondDate) =>
+   firstDate.setHours(0,0,0,0) - secondDate.setHours(0,0,0,0) < 0 //first date is in future, or it is today
 ```
 
 I use `setHours()` to make sure we compare 2 dates at the same time (00:00:00).

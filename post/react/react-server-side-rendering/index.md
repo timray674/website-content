@@ -113,7 +113,7 @@ All the Node.js code needs to be transpiled by [Babel](https://flaviocopes.com/b
 Install these 3 packages:
 
 ```bash
-npm install @babel/register @babel/preset-env @babel/preset-react ignore-styles express
+npm install @babel/register @babel/preset-env @babel/preset-react ignore-styles
 ```
 
 [`ignore-styles`](https://www.npmjs.com/package/ignore-styles) is a Babel utility that will tell it to ignore CSS files imported using the `import` syntax.

@@ -110,7 +110,7 @@ ReactDOM.hydrate(<App />, document.getElementById('root'))
 
 All the Node.js code needs to be transpiled by [Babel](https://flaviocopes.com/babel/), as server-side Node.js code does not know anything about JSX, nor ES Modules (which we use for the `include` statements).
 
-Install these 3 packages:
+Install these 4 packages:
 
 ```bash
 npm install @babel/register @babel/preset-env @babel/preset-react ignore-styles

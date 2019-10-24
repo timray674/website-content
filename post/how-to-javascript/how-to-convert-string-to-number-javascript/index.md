@@ -72,15 +72,16 @@ parseInt('10.81', 10) //10     ✅ (considered decimals, cut)
 parseInt('10000', 10) //10000  ✅
 ```
 
-If you want to retain the decimal part, and not just get the integer part, use `parseFloat()`:
+If you want to retain the decimal part and not just get the integer part, use `parseFloat()`. Note that unlike
+its `parseInt()` sibling, it only takes one argument – the string to convert:
 
 ```js
-parseFloat('10,000', 10) //10     ❌
-parseFloat('10.00', 10) //10     ✅ (considered decimals, cut)
-parseFloat('10.000', 10) //10     ✅ (considered decimals, cut)
-parseFloat('10.20', 10) //10.2     ✅ (considered decimals)
-parseFloat('10.81', 10) //10.81     ✅ (considered decimals)
-parseFloat('10000', 10) //10000  ✅
+parseFloat('10,000')  //10     ❌
+parseFloat('10.00')   //10     ✅ (considered decimals, cut)
+parseFloat('10.000')  //10     ✅ (considered decimals, cut)
+parseFloat('10.20')   //10.2   ✅ (considered decimals)
+parseFloat('10.81')   //10.81  ✅ (considered decimals)
+parseFloat('10000')   //10000  ✅
 ```
 
 ### Use `+`

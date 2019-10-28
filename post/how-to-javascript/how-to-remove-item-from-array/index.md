@@ -67,7 +67,7 @@ const removeItem = (items, i) =>
 
 let filteredItems = removeItem(items, 3)
 filteredItems = removeItem(filteredItems, 5)
-//[ 'a', 'b', 'd', 'e' ]
+//[ "a", "b", "d", "e" ]
 ```
 
 ### By value

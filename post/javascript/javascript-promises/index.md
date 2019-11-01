@@ -73,7 +73,7 @@ const isItDoneYet = new Promise((resolve, reject) => {
 })
 ```
 
-As you can see the promise checks the `done` global constant, and if that's true, we return a resolved promise, otherwise a rejected promise.
+As you can see the promise checks the `done` global variable, and if that's true, we return a resolved promise, otherwise a rejected promise.
 
 Using `resolve` and `reject` we can communicate back a value, in the above case we just return a string, but it could be an object as well.
 

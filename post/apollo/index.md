@@ -41,7 +41,7 @@ The tools provided by Apollo are mainly 3: **Client**, **Server**, **Engine**.
 
 **Apollo Server** is the server part of GraphQL, which interfaces with your backend and sends responses back to the client requests.
 
-**Apollo Engine** is an hosted infrastructure (SAAS) that serves as a middle man between the client and your server, providing caching, performance reporting, load measurement, error tracking, schema field usage statistics, historical stats and many more goodies. It's currently free up to 1 million requests per month, and it's the only part of Apollo that's not open source and free, and provides funding for the open source part of the project.
+**Apollo Engine** is a hosted infrastructure (SAAS) that serves as a middle man between the client and your server, providing caching, performance reporting, load measurement, error tracking, schema field usage statistics, historical stats and many more goodies. It's currently free up to 1 million requests per month, and it's the only part of Apollo that's not open source and free, and provides funding for the open source part of the project.
 
 It's worth noting that those 3 tools are not linked together in any way, and you can use just Apollo Client to interface with a 3rd party API, or serve an API using Apollo Server without having a client at all, for example.
 

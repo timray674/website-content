@@ -9,9 +9,9 @@ tags: svelte
 
 In Svelte you can define a listener for a DOM event directly in the template, using the `on:<event>` syntax.
 
-For example to listen on the `click` event, you will pass a function to the `on:click` attribute.
+For example, to listen to the `click` event, you will pass a function to the `on:click` attribute.
 
-To listen on the `onmousemove` event, you'll pass a function to the `on:mousemove` attribute.
+To listen to the `onmousemove` event, you'll pass a function to the `on:mousemove` attribute.
 
 Here's an example with the handling function defined inline:
 
@@ -55,16 +55,16 @@ You apply a modifier like this: `<button on:click|stopPropagation|preventDefault
 
 There are other modifiers, which are more niche. `capture` enables [capturing events instead of bubbling](https://flaviocopes.com/javascript-events/#event-bubbling-and-event-capturing), `once` only fires the event once, `self` only fires the event if the target of the event is this object (removing it from the bubbling/capturing hierarchy).
 
-## Creating your own events in components
+## Creating your events in components
 
-What's interesting is that we can create custom events in components, and use the same exact syntax of built-in DOM events.
+What's interesting is that we can create custom events in components, and use the same syntax of built-in DOM events.
 
 To do so, we must import the `createEventDispatcher` function from the `svelte` package and call it to get an event dispatcher:
 
 ```html
 <script>
-	import { createEventDispatcher } from 'svelte'
-	const dispatch = createEventDispatcher()
+  import { createEventDispatcher } from 'svelte'
+  const dispatch = createEventDispatcher()
 </script>
 ```
 

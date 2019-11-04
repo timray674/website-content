@@ -8,7 +8,7 @@ tags: devtools
 <!-- TOC -->
 
 - [Create an HTML file from scratch](#create-an-html-file-from-scratch)
-- [> and +](#-and-)
+- [> and +](#and)
 - [Level up](#level-up)
 - [Multipliers](#multipliers)
 - [Group an expression to make it more readable](#group-an-expression-to-make-it-more-readable)

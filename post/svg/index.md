@@ -682,6 +682,6 @@ You can still check for missing support using libraries like [Modernizr](https:/
 
 ```js
 if (!Modernizr.svg) {
-  $('.my-svg').attr('src', 'images/logo.png')
+  document.querySelector('.my-svg').setAttribute('src', 'images/logo.png')
 }
 ```

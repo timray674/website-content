@@ -9,7 +9,7 @@ The **Context API** was introduced to allow you to pass state (and enable the st
 
 The React team suggests to stick to props if you have just a few levels of children to pass, because it's still a much less complicated API than the Context API.
 
-In many cases, it enables us to avoid using Redux, simplifying our apps a lot, and also learning how to use React.
+In many cases, it enables us to avoid using [Redux](/redux/), simplifying our apps a lot, and also learning how to use React.
 
 How does it work?
 

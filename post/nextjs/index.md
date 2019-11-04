@@ -357,4 +357,4 @@ If you're looking to experiment, I recommend Glitch. Check out my [Next.js Glitc
 
 ## Read more on Next.js
 
-I can't possibly describe every feature of this great framework, and the main place to read more about Next.js is [the project readme on GitHub](https://github.com/zeit/next.js/blob/canary/readme.md).
+I can't possibly describe every feature of this great framework, and the main place to read more about Next.js is [the project readme on GitHub](https://github.com/zeit/next.js/blob/canary/packages/next/README.md).

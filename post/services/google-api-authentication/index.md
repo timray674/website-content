@@ -15,12 +15,12 @@ This guide assumes you already have a Google account.
 
 <!-- TOC -->
 
-- [Create a new Google API Project](#Create-a-new-Google-API-Project)
-- [Create the Authentication Credentials](#Create-the-Authentication-Credentials)
-- [Service to Service API](#Service-to-Service-API)
-- [Using the JSON Key File](#Using-the-JSON-Key-File)
-- [Use environment variables](#Use-environment-variables)
-- [Access other APIs](#Access-other-APIs)
+- [Create a new Google API Project](#create-a-new-google-api-project)
+- [Create the Authentication Credentials](#create-the-authentication-credentials)
+- [Service to Service API](#service-to-service-api)
+- [Using the JSON Key File](#using-the-json-key-file)
+- [Use environment variables](#use-environment-variables)
+- [Access other APIs](#access-other-apis)
 
 <!-- /TOC -->
 

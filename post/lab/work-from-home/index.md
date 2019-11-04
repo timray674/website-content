@@ -13,7 +13,9 @@ When I made the jump to become a freelancer in 2008, it wasn't a hard shift. I w
 
 Before going on, I suggest doing one thing. Take this [personality type test](https://www.16personalities.com/free-personality-test) and see what that site tells you.
 
-I'm an introvert, and an INTJ personality type. Which means I am independent and I like doing things alone. This post is heavily influenced by this fact, and you might find that what I say is madness if you're an extrovert who needs people around to be productive.
+I'm an introvert, I am independent and I like doing things alone.
+
+This post is heavily influenced by this fact, and you might find that what I say is madness if you're an extrovert who needs people around to be productive.
 
 The first suggestion I have for you is to have a **dedicated office space**. It does not need to be in another building, but it might be necessary if you have lots of people in your house. I do have a dedicated room, with a door I can close. It's very helpful because it avoids.. interruptions.
 

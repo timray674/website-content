@@ -2,6 +2,7 @@
 title: Introduction to WebSockets
 seotitle: WebSockets Tutorial
 date: 2018-04-28T06:04:59+02:00
+updated: 2019-10-16T06:04:59+02:00
 description: "WebSockets are an alternative to HTTP communication in Web Applications. They offer a long lived, bidirectional communication channel between client and server. Learn how to use them to perform network interactions"
 booktitle: "WebSockets"
 tags: network
@@ -139,3 +140,25 @@ Here is a WebSockets client that interacts with the server: <https://glitch.com/
 <div class="glitch-embed-wrap" style="height: 371px; width: 100%;">
   <iframe src="https://glitch.com/embed/#!/embed/flavio-websockets-client-example?path=script.js&previewSize=0&previewFirst=true" alt="flavio-websockets-client-example on glitch" style="height: 100%; width: 100%; border: 0;"></iframe>
 </div>
+
+## Debugging websockets
+
+Chrome and Firefox have a handy way to visualize all the information that is sent through WebSockets. Their DevTools support is always improving. Firefox at the time of writing has the most useful and informative debugging tool.
+
+In both, you look into the Network panel and choose WS to filter only WebSockets connections.
+
+I took these screenshots of Firefox (Developer Edition) in action:
+
+![Firefox headers](Screen Shot 2019-10-15 at 20.24.09.png)
+
+![Firefox detail](Screen Shot 2019-10-15 at 20.24.15.png)
+
+The Firefox DevTools can do much more than what I showed. In the example I used to test, I'm just sending a string, but you can inspect any data that's sent in a more organized fashion:
+
+![Data in Firefox](Screen Shot 2019-10-16 at 09.45.47.png)
+
+Check out [this post on Mozilla Hacks](https://hacks.mozilla.org/2019/10/firefoxs-new-websocket-inspector/) to know more about how to use this tool.
+
+Here is a screenshot of Chrome, which hopefully will improve its WebSockets debugging tools soon:
+
+![Chrome](Screen Shot 2019-10-15 at 20.25.01.png)

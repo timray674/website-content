@@ -25,7 +25,7 @@ This applies to React in many places.
 
 For example, you should never mutate the `state` property of a component directly, but only through the `setState()` method.
 
-In Redux, you never mutate the state directly, but only through reducers, which are functions.
+In [Redux](/redux/), you never mutate the state directly, but only through reducers, which are functions.
 
 The question is, why?
 

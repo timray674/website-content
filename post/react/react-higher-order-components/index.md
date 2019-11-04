@@ -13,7 +13,7 @@ In React, we extend this concept to components, and so we have a **Higher Order 
 
 In general, higher order components allow you to create code that's composable and reusable, and also more encapsulated.
 
-We can use a HOC to add methods or properties to the state of a component, or a Redux store for example.
+We can use a HOC to add methods or properties to the state of a component, or a [Redux](/redux/) store for example.
 
 You might want to use Higher Order Components when you want to enhance an existing component, operate on the state or props, or its rendered markup.
 

@@ -1,6 +1,7 @@
 ---
 title: A guide to JavaScript Regular Expressions
 date: 2018-04-30T07:07:09+02:00
+updated: 2019-10-18T07:07:09+02:00
 description: "Learn everything about JavaScript Regular Expressions with this brief guide that summarizes the most important concepts and shows them off with examples"
 booktitle: JavaScript Regular Expressions
 tags: js
@@ -197,13 +198,14 @@ Ranges can be combined:
 
 ## Matching a range item multiple times
 
-You can check if a string contains one an only one character in a range, by using the `-` char:
+You can check if a string contains one an only one character in a range, by starting the regex with `^` and ending with the `$` char:
 
 ```js
-/^[A-Za-z0-9]$/
-
-/^[A-Za-z0-9]$/.test('A')  //✅
-/^[A-Za-z0-9]$/.test('Ab') //❌
+/^[A-Z]$/.test('A')  //✅
+/^[A-Z]$/.test('AB') //❌
+/^[A-Z]$/.test('Ab') //❌
+/^[A-Za-z0-9]$/.test('1')  //✅
+/^[A-Za-z0-9]$/.test('A1') //❌
 ```
 
 ## Negating a pattern

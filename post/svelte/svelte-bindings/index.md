@@ -13,7 +13,7 @@ They are especially useful with forms.
 
 ## bind:value
 
-Let's start with most common form of binding you'll often use, which you can apply using `bind:value`. You take a variable from the component state, and you bind it to a form field:
+Let's start with the most common form of binding you'll often use, which you can apply using `bind:value`. You take a variable from the component state, and you bind it to a form field:
 
 ```html
 <script>
@@ -47,7 +47,7 @@ let isChecked
 <input type=checkbox bind:checked={isChecked}>
 ```
 
- `bind:group` is really handy with checkboxes and radio inputs, because those are very often used in groups. Using `bind:group` you can associate a JavaScript array to a list of checkboxes, and have it populated based on the choices made by the user.
+ `bind:group` is handy with checkboxes and radio inputs, because those are very often used in groups. Using `bind:group` you can associate a JavaScript array to a list of checkboxes, and have it populated based on the choices made by the user.
 
 Here's an example. The `goodDogs` array populates based on the checkboxes I tick:
 
@@ -58,22 +58,22 @@ let dogs = ['Roger', 'Syd']
 </script>
 
 <h2>
-	Who's a good dog?
+  Who's a good dog?
 </h2>
 
 <ul>
   {#each dogs as dog}
-	  <li>{dog} <input type=checkbox bind:group={goodDogs} value={dog}></li>
+    <li>{dog} <input type=checkbox bind:group={goodDogs} value={dog}></li>
   {/each}
 </ul>
 
 <h2>
-	Good dogs according to me:
+  Good dogs according to me:
 </h2>
 
 <ul>
   {#each goodDogs as dog}
-	  <li>{dog}</li>
+    <li>{dog}</li>
   {/each}
 </ul>
 ```
@@ -107,21 +107,21 @@ The cool thing is that if you generate options dynamically from an array of obje
 let selected
 
 const goodDogs = [
-	{ name: 'Roger' },
-	{ name: 'Syd' }
+  { name: 'Roger' },
+  { name: 'Syd' }
 ]
 </script>
 
 <h2>List of possible good dogs:</h2>
 <select bind:value={selected}>
-	{#each goodDogs as goodDog}
+  {#each goodDogs as goodDog}
     <option value={goodDog}>{goodDog.name}</option>
-	{/each}
+  {/each}
 </select>
 
 {#if selected}
 <h2>
-	Good dog selected: {selected.name}
+  Good dog selected: {selected.name}
 </h2>
 {/if}
 ```
@@ -135,24 +135,24 @@ See example: [https://svelte.dev/repl/7e06f9b7becd4c57880db5ed184ea0f3](https://
 let selected = []
 
 const goodDogs = [
-	{ name: 'Roger' },
-	{ name: 'Syd' }
+  { name: 'Roger' },
+  { name: 'Syd' }
 ]
 </script>
 
 <h2>List of possible good dogs:</h2>
 <select multiple bind:value={selected}>
-	{#each goodDogs as goodDog}
+  {#each goodDogs as goodDog}
     <option value={goodDog}>{goodDog.name}</option>
-	{/each}
+  {/each}
 </select>
 
 {#if selected.length}
 <h2>Good dog selected:</h2>
 <ul>
-	{#each selected as dog}
-	  <li>{dog.name}</li>
-	{/each}
+  {#each selected as dog}
+    <li>{dog.name}</li>
+  {/each}
 </ul>
 {/if}
 ```
@@ -161,7 +161,7 @@ See example:  [https://svelte.dev/repl/b003248e87f04919a2f9fed63dbdab8c](https:/
 
 ## Other bindings
 
-Depending on the HTML tag you are working on, you can apply different kind of bindings.
+Depending on the HTML tag you are working on, you can apply different kinds of bindings.
 
 `bind:files` is a binding valid on `type="file"` input elements, to bind the list of selected files.
 
@@ -171,7 +171,9 @@ The `audio` and `video` media HTML tags allow to bind several of their propertie
 
 `textContent` and `innerHTML` can be bound on `contenteditable` fields.
 
-## Read only bindings
+All things very useful for those specific HTML elements.
+
+## Read-only bindings
 
 `offsetWidth`, `offsetHeight`, `clientWidth`, `clientHeight` can be bound, read only, on any block level HTML element, excluding void tags (like `br`) and elements that are set to be inline (`display: inline`).
 
@@ -187,7 +189,7 @@ let myInputField
 <input bind:this={myInputField} />
 ```
 
-This is really handy when you need to apply logic to elements after you mount them, for example, using the `onMount()` lifecycle event callback.
+This is handy when you need to apply logic to elements after you mount them, for example, using the `onMount()` lifecycle event callback.
 
 ## Binding components props
 
@@ -207,9 +209,9 @@ You can import the component and bind the `inMovement` prop:
 
 ```html
 <script>
-	import Car from './Car.svelte';
+  import Car from './Car.svelte';
 
-	let carInMovement;
+  let carInMovement;
 </script>
 
 <Car bind:inMovement={carInMovement} />
@@ -217,4 +219,4 @@ You can import the component and bind the `inMovement` prop:
 {carInMovement}
 ```
 
-This can allow interesting scenarios.
+This can allow for interesting scenarios.

@@ -17,7 +17,7 @@ Container components are mostly concerned with the "backend" operations.
 
 They might handle the state of various sub-components.
 They might wrap several presentational components.
-They might interface with Redux.
+They might interface with [Redux](/redux/).
 
 As a way to simplify the distinction, we can say **presentational components are concerned with the look**, **container components are concerned with making things work**.
 

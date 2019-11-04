@@ -23,7 +23,7 @@ It can test both browser _and_ [Node.js](/nodejs/) code.
 
 You can import Node modules just by setting a working directory where it can find them in a `node_modules` folder. Or you can just install npm packages from the "Action -> Install NPM packages" menu.
 
-It supports TypeScript and Babel.
+It supports [TypeScript](/typescript/) and Babel.
 
 It's currently macOS-only, but I'm sure there are similar tools for Linux and Windows.
 

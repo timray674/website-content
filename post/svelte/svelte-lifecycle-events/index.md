@@ -5,9 +5,9 @@ description: "How to work with Lifecycle Events in Svelte"
 tags: svelte
 ---
 
-Every component in Svelte fires a number of lifecycle events that we can hook on, to help us implement the functionality we have in mind.
+Every component in Svelte fires several lifecycle events that we can hook on, to help us implement the functionality we have in mind.
 
-In particular we have
+In particular, we have
 
 - `onMount` fired after the component is rendered
 - `onDestroy` fired after the component is destroyed
@@ -20,7 +20,7 @@ We don't have access to any of those methods by default, but we need to import t
 
 ```html
 <script>
-	import { onMount, onDestroy, beforeUpdate, afterUpdate } from 'svelte'
+  import { onMount, onDestroy, beforeUpdate, afterUpdate } from 'svelte'
 </script>
 ```
 
@@ -38,9 +38,9 @@ Here's a sample usage of `onMount`:
 </script>
 ```
 
-`onDestroy` allows us to cleanup data or stop any operation we might have started at the component initialization, like timers or scheduled periodic functions using `setInterval`.
+`onDestroy` allows us to clean up data or stop any operation we might have started at the component initialization, like timers or scheduled periodic functions using `setInterval`.
 
-One particular thing to notice is that if we return a function from `onMount`, that serves the same functionality of `onDestroy` - it's ran when the component is destroyed:
+One particular thing to notice is that if we return a function from `onMount`, that serves the same functionality of `onDestroy` - it's run when the component is destroyed:
 
 ```html
 <script>

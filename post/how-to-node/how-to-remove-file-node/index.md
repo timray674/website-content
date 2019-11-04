@@ -2,7 +2,7 @@
 title: How to remove a file with Node.js
 description: "Discover how to remove a file from the filesystem with Node.js"
 date: 2018-10-10T07:00:00+02:00
-tags: js
+tags: node
 ---
 
 How do you remove a file from the filesytem using Node.js?

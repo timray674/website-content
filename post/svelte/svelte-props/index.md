@@ -5,9 +5,7 @@ description: "Learn how to work with props in Svelte and let two components with
 tags: svelte
 ---
 
-Svelte provides single file components. Every component is declared into a `.svelte` file, and in there you can write the HTML markup, the CSS and the JavaScript needed.
-
-You can import a separate component using the syntax `import ComponentName from 'componentPath'`:
+You can import a Svelte component into any other component using the syntax `import ComponentName from 'componentPath'`:
 
 ```html
 <script>
@@ -15,13 +13,15 @@ import SignupForm from './SignupForm.svelte';
 </script>
 ```
 
+> The path is relative to the current component path. `./` means "this same folder". You'd use `../` to go back one folder, and so on.
+
 Once you do so, you can use the newly imported component in the markup, like an HTML tag:
 
 ```html
 <SignupForm />
 ```
 
-In this way you are forming a parent/child relationship between the two components: the one that imports, and the one that is imported.
+In this way, you are forming a parent/child relationship between the two components: the one that imports, and the one that is imported.
 
 Often you want to have the parent component pass data to the child component.
 

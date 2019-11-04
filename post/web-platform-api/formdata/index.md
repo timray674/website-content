@@ -56,7 +56,7 @@ const handleImageUpload = event => {
   sendFile(files[0])
 }
 
-$('#fileUpload').addListener('change', event => {
+document.querySelector('#fileUpload').addEventListener('change', event => {
   handleImageUpload(event)
 })
 ```
@@ -93,7 +93,7 @@ const handleImageUpload = event => {
   sendFiles(event.target.files)
 }
 
-$('#fileUpload').addListener('change', event => {
+document.querySelector('#fileUpload').addEventListener('change', event => {
   handleImageUpload(event)
 })
 ```

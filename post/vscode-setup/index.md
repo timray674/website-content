@@ -29,14 +29,14 @@ Next I installed some themes. It depends on your taste. I like to switch between
 
 Next I installed these extensions:
 
-- Prettier
+- [Prettier](/prettier/)
 - IntelliSense for CSS class names
 - Intent 4-to-2
-- ESLint
+- [ESLint](/eslint/)
 - Duplicate action
 - Bracket Pair Colorizer 2
-- Babel ES6/ES7
-- ES7 React/Redux/GraphQL/React-Native snippets
+- [Babel](/babel/) ES6/ES7
+- ES7 React/[Redux](/redux/)/[Redux](/graphql/)/React-Native snippets
 - TODO Highlight
 
 This is a good set to start working with JavaScript and React.

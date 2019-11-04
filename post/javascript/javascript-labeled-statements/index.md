@@ -1,6 +1,6 @@
 ---
 title: JavaScript labeled statements
-date: 2019-10-22T07:00:00+02:00
+date: 2019-10-23T07:00:00+02:00
 description: "A tutorial about a very rarely used JavaScript feature: labeled statements"
 tags: js
 ---

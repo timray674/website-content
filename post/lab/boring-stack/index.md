@@ -27,7 +27,7 @@ The best feature of Hugo is that it's **fast**, I think mostly thanks to the use
 
 [Gatsby](/gatsby/) (just used as an example, nothing against it) is already too much fancy for my taste, even though it's a great tech. Why? It makes you focus too much on the tech and less on the outcome. As a developer, you might feel that is awesome, but it's not. React, GraphQL, it's all a bit too exciting.
 
-It reminds me of Redux, and people excited about the demo with "time travel", a really useful feature for day to day coding [end of joke]. People happily overcomplicated their apps just to use a shiny tech.
+It reminds me of [Redux](/redux/), and people excited about the demo with "time travel", a really useful feature for day to day coding [end of joke]. People happily overcomplicated their apps just to use a shiny tech.
 
 Let's talk about prefetching for example. Do we really need prefetching when a static site is already as fast as possible? Are our blog visitors asking for it? What are the cons? What can go wrong?
 

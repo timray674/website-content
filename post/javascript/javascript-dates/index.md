@@ -2,6 +2,7 @@
 title: "The definitive guide to JavaScript Dates"
 description: "Working with dates in JavaScript can be complicated. Learn all the quirks and how to use them."
 date: 2018-07-07T07:06:29+02:00
+updated: 2019-11-04T07:06:29+02:00
 booktitle: "Dates"
 tags: js
 tags_weight: 30
@@ -13,7 +14,7 @@ Working with dates can be _complicated_. No matter the technology, developers do
 
 JavaScript offers us a date handling functionality through a powerful built-in object: `Date`.
 
-> This article does _not_ talk about [**Moment.js**](http://momentjs.com), which I believe it's the best library out there to handle dates, and you should almost always use that when working with dates.
+> Tip: you might want to use a library when working with dates. [Moment.js](http://momentjs.com) and [date-fns](https://date-fns.org/) are two of the most popular ones.
 
 ## The Date object
 

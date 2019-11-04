@@ -5,7 +5,7 @@ description: "How to work with Reactive Statements in Svelte"
 tags: svelte
 ---
 
-In Svelte you can listen for changes on other parts of the component state, and update other variables.
+In Svelte you can listen for changes in the component state, and update other variables.
 
 For example if you have a `count` variable:
 
@@ -22,7 +22,7 @@ and you update it by clicking a button:
 let count = 0
 
 const incrementCount = () => {
-	count = count + 1
+  count = count + 1
 }
 </script>
 
@@ -38,7 +38,7 @@ Here's an example:
 let count = 0
 
 const incrementCount = () => {
-	count = count + 1
+  count = count + 1
 }
 
 $: console.log(`${count}`)

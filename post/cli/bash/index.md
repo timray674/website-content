@@ -249,7 +249,7 @@ My path is currently:
 
 ```
 bash-5.0$ echo $PATH
-/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin
+/usr/local/bin:/usr/bin: /bin:/usr/sbin: /sbin:/usr/local/go/bin
 ```
 
 You typically edit this in the `~/.bashrc` file by prepending or appending items:

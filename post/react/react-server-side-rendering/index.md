@@ -24,7 +24,7 @@ However Server Side Rendering has its drawback too:
 
 ## A very simplistic example of what it takes to Server-Side render a React app
 
-SSR setups can grow very, very complex and most tutorials will bake in Redux, React Router and many other concepts from the start.
+SSR setups can grow very, very complex and most tutorials will bake in [Redux](/redux/), [React Router](/react-router/) and many other concepts from the start.
 
 To understand how SSR works, let's start from the basics to implement a proof of concept.
 

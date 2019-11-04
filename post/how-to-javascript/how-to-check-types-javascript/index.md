@@ -5,7 +5,7 @@ description: "Find out how to add types to JavaScript without using TypeScript"
 tags: js
 ---
 
-If you haven't been living under a rock, you know something about TypeScript. It's a new language introduced by Microsoft, and it's basically JavaScript with types (and compiles to JavaScript to run in the browser).
+If you haven't been living under a rock, you know something about [TypeScript](/typescript/). It's a new language introduced by Microsoft, and it's basically JavaScript with types (and compiles to JavaScript to run in the browser).
 
 Now, I used it in some test projects but I tend to avoid writing my tutorials in TypeScript for various reasons.
 

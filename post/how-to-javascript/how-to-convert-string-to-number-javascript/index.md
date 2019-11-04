@@ -1,7 +1,7 @@
 ---
 title: "How to convert a string to a number in JavaScript"
 date: 2018-05-14T07:06:15+02:00
-updated: 2019-06-04T07:06:15+02:00
+updated: 2019-10-24T07:06:15+02:00
 description: "Learn how to convert a string to a number using JavaScript"
 tags: js
 ---
@@ -73,7 +73,7 @@ parseInt('10000', 10) //10000  ✅
 ```
 
 If you want to retain the decimal part and not just get the integer part, use `parseFloat()`. Note that unlike
-its `parseInt()` sibling, it only takes one argument – the string to convert:
+its `parseInt()` sibling, it only takes one argument – the string to convert:
 
 ```js
 parseFloat('10,000')  //10     ❌

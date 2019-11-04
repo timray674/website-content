@@ -34,7 +34,7 @@ Service Workers are at the core of [Progressive Web Apps](/progressive-web-apps/
 
 A Service Worker is **programmable proxy** between your web page and the network, providing the ability to intercept and cache network requests, effectively **giving you the ability to create an offline-first experience for your app**.
 
-It's a special kind of web worker, a [JavaScript](/javascript/) file associated with a web page which runs on a worker context, separate from the main thread, giving the benefit of being non-blocking - so computations can be done without sacrificing the UI responsiveness.
+It's a special kind of [web worker](/web-workers/), a [JavaScript](/javascript/) file associated with a web page which runs on a worker context, separate from the main thread, giving the benefit of being non-blocking - so computations can be done without sacrificing the UI responsiveness.
 
 Being on a separate thread it has no [DOM](/dom/) access, and no access to the [Local Storage](/web-storage-api/) APIs and the [XHR](/xhr/) API as well, and it can only communicate back to the main thread using the [**Channel Messaging API**](/channel-messaging-api/).
 

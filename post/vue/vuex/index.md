@@ -42,7 +42,7 @@ In this case, a good option is to centralize the state in a single store. This i
 
 ## Why should you use Vuex
 
-Vuex is not the only state management option you can use in Vue (you can use Redux too), but its main advantage is that it's official, and its integration with Vue.js is what makes it shine.
+Vuex is not the only state management option you can use in Vue (you can use [Redux](/redux/) too), but its main advantage is that it's official, and its integration with Vue.js is what makes it shine.
 
 With React you have the trouble of having to choose one of the many libraries available, as the ecosystem is huge and has no de-facto standard. Lately Redux was the most popular choice, with MobX following up in terms of popularity. With Vue I'd go as far as to say that you won't need to look around for anything other than Vuex, especially when starting out.
 

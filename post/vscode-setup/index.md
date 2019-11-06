@@ -36,7 +36,7 @@ Next I installed these extensions:
 - Duplicate action
 - Bracket Pair Colorizer 2
 - [Babel](/babel/) ES6/ES7
-- ES7 React/[Redux](/redux/)/[Redux](/graphql/)/React-Native snippets
+- ES7 React/[Redux](/redux/)/[GraphQL](/graphql/)/React-Native snippets
 - TODO Highlight
 
 This is a good set to start working with JavaScript and React.

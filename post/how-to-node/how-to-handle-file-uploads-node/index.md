@@ -2,6 +2,7 @@
 title: How to handle file uploads in Node.js
 description: How to use Node.js and in particular Express to handle uploaded files
 date: 2019-10-31T07:00:00+02:00
+updated: 2019-11-12T07:00:00+02:00
 tags: node
 ---
 
@@ -39,8 +40,9 @@ Now uploaded files are provided in `req.files`. If you forget to add that middle
 
 ```js
 app.post('/saveImage', (req, res) => {
-  const fileName = req.files.myFile.name
-  const path = __dirname + '/images/' + fileName
+  const image = req.files.myFile
+  const path = __dirname + '/images/' + image.name
+
 
   image.mv(path, (error) => {
     if (error) {
@@ -55,7 +57,7 @@ app.post('/saveImage', (req, res) => {
     res.writeHead(200, {
       'Content-Type': 'application/json'
     })
-    res.end(JSON.stringify({ status: 'success', path: '/img/houses/' + fileName }))
+    res.end(JSON.stringify({ status: 'success', path: '/images/' + image.name }))
   })
 })
 ```

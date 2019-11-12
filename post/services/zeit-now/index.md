@@ -15,13 +15,15 @@ You can use Now to deploy Node.js apps, Static Websites, and much more.
 
 Now does not only support Node.js (also Go, PHP, Python and other languages), but in this tutorial I'll just consider this technology.
 
-Now is free to start using, with generous free plan that includes 100GB of hosting, 1000 [serverless](/serverless/) functions invocations per day, 1000 builds per month, 100GB of bandwidth per month, and one [CDN](/cdn/) location. The [pricing page](https://zeit.co/pricing) helps get an idea of the costs if you need more.
+Now is free to start using, with generous free plan that includes free SSL, 100GB of hosting, 1000 [serverless](/serverless/) functions invocations per day, 1000 builds per month, 100GB of bandwidth per month, and the use of the global [CDN](/cdn/). The [pricing page](https://zeit.co/pricing) helps get an idea of the costs if you need more.
 
 ## Installation
 
-The best way is to install **Now Desktop**, which you can download from https://zeit.co/download. It's an [Electron](/electron/) application which also installs the **Now CLI**,  a tool we'll later use.
+The best way is to install **Now Desktop**, which you can download from https://github.com/zeit/now-desktop. It's an [Electron](/electron/) application which also installs the **Now CLI**,  a tool we'll later use.
 
 Through that, you can deploy applications using a simple drag and drop interface, really handy!
+
+> Tip: you can also just install the command line if you prefer, from <https://zeit.co/download>
 
 After starting, enter your email and Now will go on with the authentication, sending you a verification email.
 

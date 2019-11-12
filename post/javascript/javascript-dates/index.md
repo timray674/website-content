@@ -14,7 +14,7 @@ Working with dates can be _complicated_. No matter the technology, developers do
 
 JavaScript offers us a date handling functionality through a powerful built-in object: `Date`.
 
-> Tip: you might want to use a library when working with dates. [Moment.js](http://momentjs.com) and [date-fns](https://date-fns.org/) are two of the most popular ones.
+> Tip: you might want to use a library when working with dates. [Moment.js](/momentjs/) and [date-fns](https://date-fns.org/) are two of the most popular ones.
 
 ## The Date object
 

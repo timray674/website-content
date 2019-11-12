@@ -2,6 +2,7 @@
 title: "How to use Async and Await with Array.prototype.map()"
 description: "Using async/await combined with map() can be a little tricky. Find out how."
 date: 2018-10-11T07:00:00+02:00
+updated: 2019-11-04T07:00:00+02:00
 tags: js
 tags_weight: 29
 ---
@@ -13,18 +14,18 @@ How can you do so?
 This is the correct syntax:
 
 ```js
-const list = [] //...an array filled with values
+const list = [1, 2, 3, 4, 5] //...an array filled with values
 
 const functionWithPromise = item => { //a function that returns a promise
   return Promise.resolve('ok')
 }
 
 const anAsyncFunction = async item => {
-  return await functionWithPromise(item)
+  return functionWithPromise(item)
 }
 
 const getData = async () => {
-  return await Promise.all(list.map(item => anAsyncFunction(item)))
+  return Promise.all(list.map(item => anAsyncFunction(item)))
 }
 
 getData().then(data => {

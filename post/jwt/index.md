@@ -82,7 +82,7 @@ A common scenario is: you sign up for a service and download a JWT from the serv
 
 Another use case, which is the opposite, is sending the JWT when you manage the API and clients connect to you, and you want your users to send subsequent requests by just passing the token.
 
-In this case, the client needs to store the token somewhere. Where is the best place? In an **HttpOnly cookie**. The other methods are all prone to XSS attacks and as suche they should be avoided. An HttpOnly cookie is not accessible from JavaScript, and is automatically sent to the origin server upon every request, so it perfectly suits the use case.
+In this case, the client needs to store the token somewhere. Where is the best place? In an **HttpOnly cookie**. The other methods are all prone to XSS attacks and as such they should be avoided. An HttpOnly cookie is not accessible from JavaScript, and is automatically sent to the origin server upon every request, so it perfectly suits the use case.
 
 ## Choose the best JWT library
 

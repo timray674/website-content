@@ -38,6 +38,6 @@ const yesterday = new Date(today)
 
 yesterday.setDate(yesterday.getDate() - 1)
 
-firstDateIsPastDayComparedToSecond(yesterday, today) //true
-firstDateIsPastDayComparedToSecond(today, yesterday) //false
+firstDateIsPastDayComparedToSecond( yesterday, today) //true
+firstDateIsPastDayComparedToSecond( today, yesterday) //false
 ```

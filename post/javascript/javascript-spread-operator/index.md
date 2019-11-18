@@ -50,7 +50,7 @@ The **rest element** is useful when working with **array destructuring**:
 
 ```js
 const numbers = [1, 2, 3, 4, 5]
-[first, second, ...others] = numbers
+const [first, second, ...others] = numbers
 ```
 
 and **spread elements**:

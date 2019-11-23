@@ -9,7 +9,7 @@ Say you have a number like **`10`**, and it represents the price of something.
 
 You want to transform it to **`$10,00`**.
 
-If the number has more than 3 digits however it should be displayed differently, for example **`1000`** should be displayed as **`$1.000,00`**
+If the number has more than 3 digits however it should be displayed differently, for example **`1000`** should be displayed as **`$1,000.00`**
 
 This is in USD, however.
 

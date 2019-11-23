@@ -2,7 +2,7 @@
 title: "Feed data to a Next.js component using getInitialProps"
 description: "How to feed data to a Next.js component using getInitialProps"
 date: 2019-11-13T07:00:00+02:00
-tags: nextjs
+tags: next
 ---
 
 When I talked about [adding dynamic content to Next.js](/nextjs-dynamic-content/) we had an issue with dynamically generating the post page, because the component required some data up front, and when we tried to get the data from the JSON file:

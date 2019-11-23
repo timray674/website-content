@@ -45,7 +45,7 @@ React has its own way to manage state, as you can read on the [React Beginner's 
 
 Moving the state up in the tree works in simple cases, but in a complex app you might find you are moving almost all the state up, and then down using props.
 
-React in version 16.3.0 introduced the [**Context API**](https://flaviocopes.com/react/#the-context-api), which makes Redux redundant for the use case of accessing the state from different parts of your app, so consider using the Context API instead of Redux, unless you need a specific feature that Redux provides.
+React in version 16.3.0 introduced the [**Context API**](https://flaviocopes.com/react-context-api/), which makes Redux redundant for the use case of accessing the state from different parts of your app, so consider using the Context API instead of Redux, unless you need a specific feature that Redux provides.
 
 Redux is a way to manage an application state, and move it to an **external global store**.
 

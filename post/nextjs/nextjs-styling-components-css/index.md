@@ -2,7 +2,7 @@
 title: "Styling Next.js components using CSS"
 description: "How to style React components in Next.js?"
 date: 2019-11-14T07:00:00+02:00
-tags: nextjs
+tags: next
 ---
 
 How do we style React components in Next.js?
@@ -70,3 +70,34 @@ const Index = props => (
   </div>
 )
 ```
+
+If you want to apply some CSS globally, not scoped to a component, you add the `global` keyword to the `style` tag:
+
+```jsx
+<style jsx global>{`
+body {
+  margin: 0;
+}
+`}</style>
+```
+
+If you want to import an external CSS file in a Next.js component, you have to first install `@zeit/next-css`:
+
+```bash
+npm install @zeit/next-css
+```
+
+and then create a configuration file in the root of the project, called `next.config.js`, with this content:
+
+```js
+const withCSS = require('@zeit/next-css')
+module.exports = withCSS()
+```
+
+After restarting the Next app, you can now import CSS like you normally do with JavaScript libraries or components:
+
+```js
+import '../style.css'
+```
+
+You can also import a SASS file directly, using the [`@zeit/next-sass`](https://github.com/zeit/next-plugins/tree/master/packages/next-sass) library instead.

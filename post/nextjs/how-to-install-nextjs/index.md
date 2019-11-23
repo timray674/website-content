@@ -2,7 +2,7 @@
 title: "How to install Next.js"
 date: 2019-11-07T07:00:00+02:00
 description: "Step by step instructions to get started with Next.js"
-tags: nextjs
+tags: next
 ---
 
 To install Next.js, you need to have [Node.js](/nodejs/) installed.

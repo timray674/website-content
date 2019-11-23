@@ -38,3 +38,5 @@ And the final piece is the folder path.
 Running this path will make the folder *yours*, so you can safely run your `npm install -g <package>` commands!
 
 Pay attention to the folder listed by the error message. If it's different, update the `chown` command accordingly.
+
+> This tip applies to single user systems. On a multi-user system, you might want to create a dedicated directory for npm modules, see <https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally>.

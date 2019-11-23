@@ -2,7 +2,7 @@
 title: Responsive pre tags in CSS
 date: 2019-10-27T07:00:00+02:00
 description: "I've had some problems with responsiveness in a few posts, on my blog. Turned out it was code snippets"
-tags: js
+tags: css
 ---
 
 I've had some problems with responsiveness in a few posts, on my blog.
@@ -24,5 +24,13 @@ By default the CSS `white-space` property on the `pre` tag is set to `normal`, a
 ```css
 pre {
   white-space: pre-wrap;
+}
+```
+
+When some words are too long they can still break the layout. To fix this, also add:
+
+```css
+pre {
+  word-break: break-all;
 }
 ```

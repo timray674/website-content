@@ -2,7 +2,7 @@
 title: "Linking two pages in Next.js using Link"
 description: "How to link two or more pages in Next.js"
 date: 2019-11-11T07:00:00+02:00
-tags: nextjs
+tags: next
 ---
 
 This tutorial starts where the [first Next.js tutorial](/how-to-install-nextjs/) left off. We built a site with one page:

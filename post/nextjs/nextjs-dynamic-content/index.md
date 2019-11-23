@@ -2,7 +2,7 @@
 title: "Dynamic content in Next.js with the router"
 description: "How to setup dynamic content in a Next.js site"
 date: 2019-11-12T07:00:00+02:00
-tags: nextjs
+tags: next
 ---
 
 In the [previous post](/link-two-pages-nextjs/) we saw how to link the home to the blog page.

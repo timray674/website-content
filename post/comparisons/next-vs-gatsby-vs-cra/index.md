@@ -2,7 +2,7 @@
 title: "Next.js vs Gatsby vs create-react-app"
 date: 2019-11-06T07:00:00+02:00
 description: "Next.js or Gatsby? Why choosing them over create-react-app? And which one?"
-tags: nextjs
+tags: next
 ---
 
 [`create-react-app`](/react-create-react-app/) does not help you generate a server-side-rendered app easily. Anything that comes with it (SEO, speed...) is only provided by tools like [Next.js](/nextjs/) and [Gatsby](/gatsby/).

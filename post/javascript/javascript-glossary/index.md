@@ -2,6 +2,7 @@
 title: "The JavaScript Glossary"
 description: "A guide to a few terms used in frontend development that might be alien to you"
 date: 2018-04-21T06:06:29+02:00
+date: 2019-11-23T06:06:29+02:00
 booktitle: "Glossary"
 tags: js
 tags_weight: 39
@@ -84,11 +85,11 @@ JavaScript with `var` and `let` declaration allows you to reassign a variable in
 
 ## Scope
 
-Scope is the set of variables that's visible to a part of the program.
+Scope is, referred to a variable, in what portion of a program that variable is visible. `let` and `const` have block scoping, which determines a differnet scope from values defined using `var`, which have function scoping.
 
 ## Scoping
 
-Scoping is the set of rules that's defined in a programming language to determine the value of a variable.
+Scoping is how a programming language determines the scope of the variables and functions. We can for example have block scoping, function scoping, lexical scoping.
 
 ## Shim
 

@@ -283,6 +283,7 @@ There are amazing public APIs you can use:
 - [The Twitter API](https://developer.twitter.com/en/docs)
 - [The YouTube API](https://developers.google.com/youtube/)
 - [Worldwide Holidays API](https://calendarific.com/api-documentation)
+- [Geocoding & Geoparsing API](https://geocodify.com)
 
 ### Image placeholders for your sample projects
 
